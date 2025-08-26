@@ -1,0 +1,646 @@
+[0.000000] (-) TimerEvent: {}
+[0.001268] (dss_bridge) JobQueued: {'identifier': 'dss_bridge', 'dependencies': OrderedDict()}
+[0.001656] (dss_bridge) JobStarted: {'identifier': 'dss_bridge'}
+[0.097135] (-) TimerEvent: {}
+[0.198718] (-) TimerEvent: {}
+[0.300948] (-) TimerEvent: {}
+[0.403500] (-) TimerEvent: {}
+[0.504810] (-) TimerEvent: {}
+[0.605696] (-) TimerEvent: {}
+[0.706536] (-) TimerEvent: {}
+[0.809332] (-) TimerEvent: {}
+[0.910151] (-) TimerEvent: {}
+[1.012032] (-) TimerEvent: {}
+[1.113827] (-) TimerEvent: {}
+[1.214747] (-) TimerEvent: {}
+[1.315592] (-) TimerEvent: {}
+[1.417534] (-) TimerEvent: {}
+[1.518534] (-) TimerEvent: {}
+[1.619812] (-) TimerEvent: {}
+[1.720604] (-) TimerEvent: {}
+[1.821332] (-) TimerEvent: {}
+[1.926440] (-) TimerEvent: {}
+[2.028130] (-) TimerEvent: {}
+[2.130079] (-) TimerEvent: {}
+[2.231660] (-) TimerEvent: {}
+[2.332582] (-) TimerEvent: {}
+[2.434145] (-) TimerEvent: {}
+[2.535392] (-) TimerEvent: {}
+[2.636396] (-) TimerEvent: {}
+[2.737718] (-) TimerEvent: {}
+[2.839316] (-) TimerEvent: {}
+[2.941581] (-) TimerEvent: {}
+[3.042939] (-) TimerEvent: {}
+[3.143902] (-) TimerEvent: {}
+[3.244969] (-) TimerEvent: {}
+[3.346624] (-) TimerEvent: {}
+[3.448778] (-) TimerEvent: {}
+[3.549892] (-) TimerEvent: {}
+[3.650572] (-) TimerEvent: {}
+[3.751247] (-) TimerEvent: {}
+[3.853128] (-) TimerEvent: {}
+[3.955603] (-) TimerEvent: {}
+[4.056379] (-) TimerEvent: {}
+[4.159446] (-) TimerEvent: {}
+[4.260591] (-) TimerEvent: {}
+[4.362770] (-) TimerEvent: {}
+[4.463426] (-) TimerEvent: {}
+[4.564382] (-) TimerEvent: {}
+[4.666113] (-) TimerEvent: {}
+[4.766873] (-) TimerEvent: {}
+[4.867721] (-) TimerEvent: {}
+[4.969832] (-) TimerEvent: {}
+[5.071195] (-) TimerEvent: {}
+[5.174508] (-) TimerEvent: {}
+[5.276270] (-) TimerEvent: {}
+[5.377007] (-) TimerEvent: {}
+[5.477909] (-) TimerEvent: {}
+[5.579413] (-) TimerEvent: {}
+[5.681044] (-) TimerEvent: {}
+[5.782047] (-) TimerEvent: {}
+[5.883967] (-) TimerEvent: {}
+[5.987217] (-) TimerEvent: {}
+[6.089288] (-) TimerEvent: {}
+[6.190245] (-) TimerEvent: {}
+[6.294209] (-) TimerEvent: {}
+[6.395052] (-) TimerEvent: {}
+[6.496973] (-) TimerEvent: {}
+[6.599739] (-) TimerEvent: {}
+[6.700771] (-) TimerEvent: {}
+[6.801899] (-) TimerEvent: {}
+[6.858349] (dss_bridge) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build'], 'cwd': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tukorea', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/tukorea', 'OLDPWD': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tukorea', 'NAME': 'b226-12', 'WSL_INTEROP': '/run/WSL/303_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/tukorea/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Python313/Scripts/:/mnt/c/Program Files/Python313/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/Naraesoft/MagicRecovery/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/AppData/Roaming/npm:/snap/bin', 'WT_SESSION': '2fa6fc6e-0836-4952-896b-a6c04b301df6', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[6.901976] (-) TimerEvent: {}
+[7.002891] (-) TimerEvent: {}
+[7.103486] (-) TimerEvent: {}
+[7.204262] (-) TimerEvent: {}
+[7.306887] (-) TimerEvent: {}
+[7.408075] (-) TimerEvent: {}
+[7.509493] (-) TimerEvent: {}
+[7.611991] (-) TimerEvent: {}
+[7.713943] (-) TimerEvent: {}
+[7.815496] (-) TimerEvent: {}
+[7.916391] (-) TimerEvent: {}
+[8.018624] (-) TimerEvent: {}
+[8.121297] (-) TimerEvent: {}
+[8.223075] (-) TimerEvent: {}
+[8.326264] (-) TimerEvent: {}
+[8.428187] (-) TimerEvent: {}
+[8.530413] (-) TimerEvent: {}
+[8.634073] (-) TimerEvent: {}
+[8.736542] (-) TimerEvent: {}
+[8.837370] (-) TimerEvent: {}
+[8.937837] (-) TimerEvent: {}
+[9.038898] (-) TimerEvent: {}
+[9.141069] (-) TimerEvent: {}
+[9.242629] (-) TimerEvent: {}
+[9.343251] (-) TimerEvent: {}
+[9.444311] (-) TimerEvent: {}
+[9.545350] (-) TimerEvent: {}
+[9.646019] (-) TimerEvent: {}
+[9.747177] (-) TimerEvent: {}
+[9.847808] (-) TimerEvent: {}
+[9.948905] (-) TimerEvent: {}
+[10.050608] (-) TimerEvent: {}
+[10.151408] (-) TimerEvent: {}
+[10.253375] (-) TimerEvent: {}
+[10.354310] (-) TimerEvent: {}
+[10.455669] (-) TimerEvent: {}
+[10.556826] (-) TimerEvent: {}
+[10.657998] (-) TimerEvent: {}
+[10.759043] (-) TimerEvent: {}
+[10.859821] (-) TimerEvent: {}
+[10.870547] (dss_bridge) StdoutLine: {'line': b'running develop\n'}
+[10.959950] (-) TimerEvent: {}
+[11.064067] (-) TimerEvent: {}
+[11.166285] (-) TimerEvent: {}
+[11.268050] (-) TimerEvent: {}
+[11.371642] (-) TimerEvent: {}
+[11.473547] (-) TimerEvent: {}
+[11.576787] (-) TimerEvent: {}
+[11.680469] (-) TimerEvent: {}
+[11.781671] (-) TimerEvent: {}
+[11.882373] (-) TimerEvent: {}
+[11.983380] (-) TimerEvent: {}
+[12.085605] (-) TimerEvent: {}
+[12.186981] (-) TimerEvent: {}
+[12.200030] (dss_bridge) StdoutLine: {'line': b'Removing /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss-bridge.egg-link (link to .)\n'}
+[12.287131] (-) TimerEvent: {}
+[12.290763] (dss_bridge) CommandEnded: {'returncode': 0}
+[12.373086] (dss_bridge) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/dss_bridge', 'build', '--build-base', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build', 'install', '--record', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss-ros2-bridge/src/dss_bridge', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tukorea', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/tukorea', 'OLDPWD': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tukorea', 'NAME': 'b226-12', 'WSL_INTEROP': '/run/WSL/303_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/tukorea/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Python313/Scripts/:/mnt/c/Program Files/Python313/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/Naraesoft/MagicRecovery/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/AppData/Roaming/npm:/snap/bin', 'WT_SESSION': '2fa6fc6e-0836-4952-896b-a6c04b301df6', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[12.387286] (-) TimerEvent: {}
+[12.489771] (-) TimerEvent: {}
+[12.591850] (-) TimerEvent: {}
+[12.692951] (-) TimerEvent: {}
+[12.796189] (-) TimerEvent: {}
+[12.897521] (-) TimerEvent: {}
+[12.998884] (-) TimerEvent: {}
+[13.099621] (-) TimerEvent: {}
+[13.200113] (-) TimerEvent: {}
+[13.300940] (-) TimerEvent: {}
+[13.403221] (-) TimerEvent: {}
+[13.504401] (-) TimerEvent: {}
+[13.605018] (-) TimerEvent: {}
+[13.705881] (-) TimerEvent: {}
+[13.808385] (-) TimerEvent: {}
+[13.910695] (-) TimerEvent: {}
+[14.011928] (-) TimerEvent: {}
+[14.112698] (-) TimerEvent: {}
+[14.214734] (-) TimerEvent: {}
+[14.316027] (-) TimerEvent: {}
+[14.417931] (-) TimerEvent: {}
+[14.518714] (-) TimerEvent: {}
+[14.621203] (-) TimerEvent: {}
+[14.722687] (-) TimerEvent: {}
+[14.823698] (-) TimerEvent: {}
+[14.926423] (-) TimerEvent: {}
+[15.027036] (-) TimerEvent: {}
+[15.127863] (-) TimerEvent: {}
+[15.228769] (-) TimerEvent: {}
+[15.329690] (-) TimerEvent: {}
+[15.431727] (-) TimerEvent: {}
+[15.533673] (-) TimerEvent: {}
+[15.634444] (-) TimerEvent: {}
+[15.735673] (-) TimerEvent: {}
+[15.837070] (-) TimerEvent: {}
+[15.867536] (dss_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[15.888886] (dss_bridge) StdoutLine: {'line': b'writing ../../../../build/dss_bridge/dss_bridge.egg-info/PKG-INFO\n'}
+[15.914541] (dss_bridge) StdoutLine: {'line': b'writing dependency_links to ../../../../build/dss_bridge/dss_bridge.egg-info/dependency_links.txt\n'}
+[15.937189] (-) TimerEvent: {}
+[15.940549] (dss_bridge) StdoutLine: {'line': b'writing entry points to ../../../../build/dss_bridge/dss_bridge.egg-info/entry_points.txt\n'}
+[15.959600] (dss_bridge) StdoutLine: {'line': b'writing requirements to ../../../../build/dss_bridge/dss_bridge.egg-info/requires.txt\n'}
+[15.975652] (dss_bridge) StdoutLine: {'line': b'writing top-level names to ../../../../build/dss_bridge/dss_bridge.egg-info/top_level.txt\n'}
+[16.037358] (-) TimerEvent: {}
+[16.140661] (-) TimerEvent: {}
+[16.244095] (-) TimerEvent: {}
+[16.345385] (-) TimerEvent: {}
+[16.446718] (-) TimerEvent: {}
+[16.548628] (-) TimerEvent: {}
+[16.641830] (dss_bridge) StdoutLine: {'line': b"reading manifest file '../../../../build/dss_bridge/dss_bridge.egg-info/SOURCES.txt'\n"}
+[16.649117] (-) TimerEvent: {}
+[16.750340] (-) TimerEvent: {}
+[16.851627] (-) TimerEvent: {}
+[16.953823] (-) TimerEvent: {}
+[17.054833] (-) TimerEvent: {}
+[17.157350] (-) TimerEvent: {}
+[17.259487] (-) TimerEvent: {}
+[17.361156] (-) TimerEvent: {}
+[17.464982] (-) TimerEvent: {}
+[17.565779] (-) TimerEvent: {}
+[17.629338] (dss_bridge) StdoutLine: {'line': b"writing manifest file '../../../../build/dss_bridge/dss_bridge.egg-info/SOURCES.txt'\n"}
+[17.643831] (dss_bridge) StdoutLine: {'line': b'running build\n'}
+[17.646982] (dss_bridge) StdoutLine: {'line': b'running build_py\n'}
+[17.665866] (-) TimerEvent: {}
+[17.697466] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_bridge_node.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge\n'}
+[17.766046] (-) TimerEvent: {}
+[17.827214] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_car_control_node.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge\n'}
+[17.866318] (-) TimerEvent: {}
+[17.942177] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge\n'}
+[17.966432] (-) TimerEvent: {}
+[18.069058] (-) TimerEvent: {}
+[18.097617] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk\n'}
+[18.169403] (-) TimerEvent: {}
+[18.271331] (-) TimerEvent: {}
+[18.274986] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/config/sdk_config.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/config\n'}
+[18.371523] (-) TimerEvent: {}
+[18.466622] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/config/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/config\n'}
+[18.473116] (-) TimerEvent: {}
+[18.574091] (-) TimerEvent: {}
+[18.652914] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/core/idsssdk.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core\n'}
+[18.674281] (-) TimerEvent: {}
+[18.775210] (-) TimerEvent: {}
+[18.827343] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/core/osi_manager.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core\n'}
+[18.875391] (-) TimerEvent: {}
+[18.976725] (-) TimerEvent: {}
+[19.012523] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/core/sim_control_sender.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core\n'}
+[19.076953] (-) TimerEvent: {}
+[19.177824] (-) TimerEvent: {}
+[19.193220] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/core/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core\n'}
+[19.277930] (-) TimerEvent: {}
+[19.369376] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_common_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[19.378105] (-) TimerEvent: {}
+[19.479412] (-) TimerEvent: {}
+[19.559061] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_datarecording_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[19.579628] (-) TimerEvent: {}
+[19.680494] (-) TimerEvent: {}
+[19.735537] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_detectedlane_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[19.780645] (-) TimerEvent: {}
+[19.882443] (-) TimerEvent: {}
+[19.920582] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_detectedobject_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[19.982626] (-) TimerEvent: {}
+[20.084692] (-) TimerEvent: {}
+[20.098988] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_detectedoccupant_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[20.184867] (-) TimerEvent: {}
+[20.286394] (-) TimerEvent: {}
+[20.294011] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_detectedroadmarking_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[20.386558] (-) TimerEvent: {}
+[20.488513] (-) TimerEvent: {}
+[20.492479] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_detectedtrafficlight_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[20.588742] (-) TimerEvent: {}
+[20.666019] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_detectedtrafficsign_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[20.688906] (-) TimerEvent: {}
+[20.790289] (-) TimerEvent: {}
+[20.846708] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_environment_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[20.890403] (-) TimerEvent: {}
+[20.993040] (-) TimerEvent: {}
+[21.026365] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_featuredata_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[21.093204] (-) TimerEvent: {}
+[21.194295] (-) TimerEvent: {}
+[21.217583] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_groundtruth_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[21.294475] (-) TimerEvent: {}
+[21.395555] (-) TimerEvent: {}
+[21.396995] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_hostvehicledata_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[21.495905] (-) TimerEvent: {}
+[21.579215] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_lane_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[21.596028] (-) TimerEvent: {}
+[21.698125] (-) TimerEvent: {}
+[21.755324] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_logicaldetectiondata_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[21.798318] (-) TimerEvent: {}
+[21.899636] (-) TimerEvent: {}
+[21.929839] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_logicallane_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[21.999816] (-) TimerEvent: {}
+[22.102785] (-) TimerEvent: {}
+[22.105425] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_object_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[22.202941] (-) TimerEvent: {}
+[22.286943] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_occupant_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[22.303191] (-) TimerEvent: {}
+[22.405963] (-) TimerEvent: {}
+[22.472578] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_referenceline_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[22.506105] (-) TimerEvent: {}
+[22.608548] (-) TimerEvent: {}
+[22.658982] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_roadmarking_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[22.708733] (-) TimerEvent: {}
+[22.810150] (-) TimerEvent: {}
+[22.832636] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_sensordata_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[22.910333] (-) TimerEvent: {}
+[23.011961] (-) TimerEvent: {}
+[23.029744] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_sensorspecific_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[23.112116] (-) TimerEvent: {}
+[23.199568] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_sensorviewconfiguration_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[23.212257] (-) TimerEvent: {}
+[23.316303] (-) TimerEvent: {}
+[23.377776] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_sensorview_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[23.416474] (-) TimerEvent: {}
+[23.517261] (-) TimerEvent: {}
+[23.577994] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_trafficcommandupdate_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[23.617439] (-) TimerEvent: {}
+[23.720518] (-) TimerEvent: {}
+[23.746731] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_trafficcommand_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[23.820705] (-) TimerEvent: {}
+[23.923025] (-) TimerEvent: {}
+[23.926995] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_trafficlight_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[24.023224] (-) TimerEvent: {}
+[24.100547] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_trafficsign_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[24.123365] (-) TimerEvent: {}
+[24.224291] (-) TimerEvent: {}
+[24.274030] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_trafficupdate_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[24.324474] (-) TimerEvent: {}
+[24.425531] (-) TimerEvent: {}
+[24.449816] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/osi_version_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[24.525833] (-) TimerEvent: {}
+[24.628822] (-) TimerEvent: {}
+[24.653235] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/osi3/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3\n'}
+[24.729014] (-) TimerEvent: {}
+[24.829343] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/protobuf/dss_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/protobuf\n'}
+[24.832700] (-) TimerEvent: {}
+[24.933350] (-) TimerEvent: {}
+[25.004471] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/protobuf/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/protobuf\n'}
+[25.033474] (-) TimerEvent: {}
+[25.134076] (-) TimerEvent: {}
+[25.157018] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/utils/formatter.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/utils\n'}
+[25.234299] (-) TimerEvent: {}
+[25.332440] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/utils/logger.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/utils\n'}
+[25.337527] (-) TimerEvent: {}
+[25.439224] (-) TimerEvent: {}
+[25.515696] (dss_bridge) StdoutLine: {'line': b'copying dss_bridge/dss_sdk/utils/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/utils\n'}
+[25.539351] (-) TimerEvent: {}
+[25.641925] (-) TimerEvent: {}
+[25.661494] (dss_bridge) StdoutLine: {'line': b'running install\n'}
+[25.663027] (dss_bridge) StdoutLine: {'line': b'running install_lib\n'}
+[25.726613] (dss_bridge) StdoutLine: {'line': b'creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge\n'}
+[25.741977] (-) TimerEvent: {}
+[25.791336] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_bridge_node.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge\n'}
+[25.842151] (-) TimerEvent: {}
+[25.943464] (-) TimerEvent: {}
+[25.957523] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_car_control_node.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge\n'}
+[26.043624] (-) TimerEvent: {}
+[26.099214] (dss_bridge) StdoutLine: {'line': b'creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk\n'}
+[26.143785] (-) TimerEvent: {}
+[26.174997] (dss_bridge) StdoutLine: {'line': b'creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/config\n'}
+[26.243984] (-) TimerEvent: {}
+[26.274059] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/config/sdk_config.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/config\n'}
+[26.344175] (-) TimerEvent: {}
+[26.445977] (-) TimerEvent: {}
+[26.471676] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/config/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/config\n'}
+[26.546133] (-) TimerEvent: {}
+[26.648115] (-) TimerEvent: {}
+[26.685214] (dss_bridge) StdoutLine: {'line': b'creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core\n'}
+[26.748259] (-) TimerEvent: {}
+[26.783218] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core/idsssdk.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core\n'}
+[26.848401] (-) TimerEvent: {}
+[26.949930] (-) TimerEvent: {}
+[26.992140] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core/osi_manager.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core\n'}
+[27.050090] (-) TimerEvent: {}
+[27.151964] (-) TimerEvent: {}
+[27.196420] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core/sim_control_sender.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core\n'}
+[27.252133] (-) TimerEvent: {}
+[27.353707] (-) TimerEvent: {}
+[27.398860] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core\n'}
+[27.453865] (-) TimerEvent: {}
+[27.556605] (-) TimerEvent: {}
+[27.599713] (dss_bridge) StdoutLine: {'line': b'creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[27.656803] (-) TimerEvent: {}
+[27.725273] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_common_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[27.756898] (-) TimerEvent: {}
+[27.857708] (-) TimerEvent: {}
+[27.926419] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_datarecording_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[27.957830] (-) TimerEvent: {}
+[28.059579] (-) TimerEvent: {}
+[28.150971] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_detectedlane_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[28.159720] (-) TimerEvent: {}
+[28.260614] (-) TimerEvent: {}
+[28.352322] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_detectedobject_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[28.360726] (-) TimerEvent: {}
+[28.462987] (-) TimerEvent: {}
+[28.553411] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_detectedoccupant_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[28.563145] (-) TimerEvent: {}
+[28.665653] (-) TimerEvent: {}
+[28.766945] (-) TimerEvent: {}
+[28.788500] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_detectedroadmarking_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[28.867137] (-) TimerEvent: {}
+[28.968671] (-) TimerEvent: {}
+[28.986368] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_detectedtrafficlight_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[29.068557] (-) TimerEvent: {}
+[29.169652] (-) TimerEvent: {}
+[29.185475] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_detectedtrafficsign_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[29.269823] (-) TimerEvent: {}
+[29.372032] (-) TimerEvent: {}
+[29.385209] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_environment_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[29.472171] (-) TimerEvent: {}
+[29.573342] (-) TimerEvent: {}
+[29.590677] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_featuredata_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[29.673504] (-) TimerEvent: {}
+[29.775989] (-) TimerEvent: {}
+[29.879469] (-) TimerEvent: {}
+[29.887664] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_groundtruth_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[29.979621] (-) TimerEvent: {}
+[30.071589] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_hostvehicledata_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[30.079773] (-) TimerEvent: {}
+[30.180647] (-) TimerEvent: {}
+[30.260388] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_lane_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[30.280808] (-) TimerEvent: {}
+[30.381904] (-) TimerEvent: {}
+[30.437206] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_logicaldetectiondata_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[30.482016] (-) TimerEvent: {}
+[30.582787] (-) TimerEvent: {}
+[30.616829] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_logicallane_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[30.682912] (-) TimerEvent: {}
+[30.783552] (-) TimerEvent: {}
+[30.829546] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_object_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[30.883641] (-) TimerEvent: {}
+[31.001562] (-) TimerEvent: {}
+[31.033409] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_occupant_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[31.101706] (-) TimerEvent: {}
+[31.202311] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_referenceline_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[31.207514] (-) TimerEvent: {}
+[31.308586] (-) TimerEvent: {}
+[31.393967] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_roadmarking_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[31.408762] (-) TimerEvent: {}
+[31.510523] (-) TimerEvent: {}
+[31.565168] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_sensordata_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[31.610654] (-) TimerEvent: {}
+[31.713939] (-) TimerEvent: {}
+[31.783345] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_sensorspecific_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[31.814079] (-) TimerEvent: {}
+[31.914856] (-) TimerEvent: {}
+[31.968364] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_sensorviewconfiguration_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[32.015014] (-) TimerEvent: {}
+[32.116224] (-) TimerEvent: {}
+[32.175942] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_sensorview_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[32.216380] (-) TimerEvent: {}
+[32.318506] (-) TimerEvent: {}
+[32.354974] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_trafficcommandupdate_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[32.418654] (-) TimerEvent: {}
+[32.519819] (-) TimerEvent: {}
+[32.525807] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_trafficcommand_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[32.619943] (-) TimerEvent: {}
+[32.715876] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_trafficlight_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[32.723996] (-) TimerEvent: {}
+[32.828514] (-) TimerEvent: {}
+[32.929676] (-) TimerEvent: {}
+[32.938429] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_trafficsign_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[33.029827] (-) TimerEvent: {}
+[33.123975] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_trafficupdate_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[33.129964] (-) TimerEvent: {}
+[33.230916] (-) TimerEvent: {}
+[33.299899] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_version_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[33.331050] (-) TimerEvent: {}
+[33.432071] (-) TimerEvent: {}
+[33.465706] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3\n'}
+[33.532224] (-) TimerEvent: {}
+[33.627567] (dss_bridge) StdoutLine: {'line': b'creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/protobuf\n'}
+[33.632349] (-) TimerEvent: {}
+[33.733840] (-) TimerEvent: {}
+[33.740568] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/protobuf/dss_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/protobuf\n'}
+[33.833955] (-) TimerEvent: {}
+[33.910620] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/protobuf/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/protobuf\n'}
+[33.934105] (-) TimerEvent: {}
+[34.036032] (-) TimerEvent: {}
+[34.070282] (dss_bridge) StdoutLine: {'line': b'creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/utils\n'}
+[34.136173] (-) TimerEvent: {}
+[34.151282] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/utils/formatter.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/utils\n'}
+[34.236353] (-) TimerEvent: {}
+[34.325177] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/utils/logger.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/utils\n'}
+[34.336472] (-) TimerEvent: {}
+[34.437459] (-) TimerEvent: {}
+[34.505614] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/utils/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/utils\n'}
+[34.537612] (-) TimerEvent: {}
+[34.640720] (-) TimerEvent: {}
+[34.684259] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk\n'}
+[34.740940] (-) TimerEvent: {}
+[34.807974] (dss_bridge) StdoutLine: {'line': b'copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge\n'}
+[34.840980] (-) TimerEvent: {}
+[34.930121] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_bridge_node.py to dss_bridge_node.cpython-310.pyc\n'}
+[34.941494] (-) TimerEvent: {}
+[35.042658] (-) TimerEvent: {}
+[35.088542] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_car_control_node.py to dss_car_control_node.cpython-310.pyc\n'}
+[35.142786] (-) TimerEvent: {}
+[35.243684] (-) TimerEvent: {}
+[35.247100] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/config/sdk_config.py to sdk_config.cpython-310.pyc\n'}
+[35.343750] (-) TimerEvent: {}
+[35.444367] (-) TimerEvent: {}
+[35.447049] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/config/__init__.py to __init__.cpython-310.pyc\n'}
+[35.544475] (-) TimerEvent: {}
+[35.645497] (-) TimerEvent: {}
+[35.653920] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core/idsssdk.py to idsssdk.cpython-310.pyc\n'}
+[35.745682] (-) TimerEvent: {}
+[35.846520] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core/osi_manager.py to osi_manager.cpython-310.pyc\n'}
+[35.850579] (-) TimerEvent: {}
+[35.951502] (-) TimerEvent: {}
+[36.038232] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core/sim_control_sender.py to sim_control_sender.cpython-310.pyc\n'}
+[36.051670] (-) TimerEvent: {}
+[36.152919] (-) TimerEvent: {}
+[36.256386] (-) TimerEvent: {}
+[36.257361] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core/__init__.py to __init__.cpython-310.pyc\n'}
+[36.356566] (-) TimerEvent: {}
+[36.457528] (-) TimerEvent: {}
+[36.461755] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_common_pb2.py to osi_common_pb2.cpython-310.pyc\n'}
+[36.557998] (-) TimerEvent: {}
+[36.660786] (-) TimerEvent: {}
+[36.699441] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_datarecording_pb2.py to osi_datarecording_pb2.cpython-310.pyc\n'}
+[36.760962] (-) TimerEvent: {}
+[36.862144] (-) TimerEvent: {}
+[36.918129] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_detectedlane_pb2.py to osi_detectedlane_pb2.cpython-310.pyc\n'}
+[36.962430] (-) TimerEvent: {}
+[37.064872] (-) TimerEvent: {}
+[37.152749] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_detectedobject_pb2.py to osi_detectedobject_pb2.cpython-310.pyc\n'}
+[37.165072] (-) TimerEvent: {}
+[37.267468] (-) TimerEvent: {}
+[37.351477] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_detectedoccupant_pb2.py to osi_detectedoccupant_pb2.cpython-310.pyc\n'}
+[37.367598] (-) TimerEvent: {}
+[37.468856] (-) TimerEvent: {}
+[37.526328] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_detectedroadmarking_pb2.py to osi_detectedroadmarking_pb2.cpython-310.pyc\n'}
+[37.569075] (-) TimerEvent: {}
+[37.672095] (-) TimerEvent: {}
+[37.757959] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_detectedtrafficlight_pb2.py to osi_detectedtrafficlight_pb2.cpython-310.pyc\n'}
+[37.772266] (-) TimerEvent: {}
+[37.874663] (-) TimerEvent: {}
+[37.976656] (-) TimerEvent: {}
+[37.990222] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_detectedtrafficsign_pb2.py to osi_detectedtrafficsign_pb2.cpython-310.pyc\n'}
+[38.076949] (-) TimerEvent: {}
+[38.177897] (-) TimerEvent: {}
+[38.194424] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_environment_pb2.py to osi_environment_pb2.cpython-310.pyc\n'}
+[38.277982] (-) TimerEvent: {}
+[38.380226] (-) TimerEvent: {}
+[38.397525] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_featuredata_pb2.py to osi_featuredata_pb2.cpython-310.pyc\n'}
+[38.480351] (-) TimerEvent: {}
+[38.582453] (-) TimerEvent: {}
+[38.588505] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_groundtruth_pb2.py to osi_groundtruth_pb2.cpython-310.pyc\n'}
+[38.682548] (-) TimerEvent: {}
+[38.785821] (-) TimerEvent: {}
+[38.812754] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_hostvehicledata_pb2.py to osi_hostvehicledata_pb2.cpython-310.pyc\n'}
+[38.886044] (-) TimerEvent: {}
+[38.988746] (-) TimerEvent: {}
+[39.014353] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_lane_pb2.py to osi_lane_pb2.cpython-310.pyc\n'}
+[39.088882] (-) TimerEvent: {}
+[39.189543] (-) TimerEvent: {}
+[39.215864] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_logicaldetectiondata_pb2.py to osi_logicaldetectiondata_pb2.cpython-310.pyc\n'}
+[39.289670] (-) TimerEvent: {}
+[39.390963] (-) TimerEvent: {}
+[39.410588] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_logicallane_pb2.py to osi_logicallane_pb2.cpython-310.pyc\n'}
+[39.491069] (-) TimerEvent: {}
+[39.592211] (-) TimerEvent: {}
+[39.622701] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_object_pb2.py to osi_object_pb2.cpython-310.pyc\n'}
+[39.692328] (-) TimerEvent: {}
+[39.794733] (-) TimerEvent: {}
+[39.823397] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_occupant_pb2.py to osi_occupant_pb2.cpython-310.pyc\n'}
+[39.894873] (-) TimerEvent: {}
+[39.996221] (-) TimerEvent: {}
+[40.004382] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_referenceline_pb2.py to osi_referenceline_pb2.cpython-310.pyc\n'}
+[40.096327] (-) TimerEvent: {}
+[40.194762] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_roadmarking_pb2.py to osi_roadmarking_pb2.cpython-310.pyc\n'}
+[40.196716] (-) TimerEvent: {}
+[40.298634] (-) TimerEvent: {}
+[40.400678] (-) TimerEvent: {}
+[40.478141] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_sensordata_pb2.py to osi_sensordata_pb2.cpython-310.pyc\n'}
+[40.500948] (-) TimerEvent: {}
+[40.602287] (-) TimerEvent: {}
+[40.706717] (-) TimerEvent: {}
+[40.808086] (-) TimerEvent: {}
+[40.865995] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_sensorspecific_pb2.py to osi_sensorspecific_pb2.cpython-310.pyc\n'}
+[40.908211] (-) TimerEvent: {}
+[41.009342] (-) TimerEvent: {}
+[41.061307] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_sensorviewconfiguration_pb2.py to osi_sensorviewconfiguration_pb2.cpython-310.pyc\n'}
+[41.109487] (-) TimerEvent: {}
+[41.210699] (-) TimerEvent: {}
+[41.273946] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_sensorview_pb2.py to osi_sensorview_pb2.cpython-310.pyc\n'}
+[41.310910] (-) TimerEvent: {}
+[41.411657] (-) TimerEvent: {}
+[41.474004] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_trafficcommandupdate_pb2.py to osi_trafficcommandupdate_pb2.cpython-310.pyc\n'}
+[41.511836] (-) TimerEvent: {}
+[41.613167] (-) TimerEvent: {}
+[41.672600] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_trafficcommand_pb2.py to osi_trafficcommand_pb2.cpython-310.pyc\n'}
+[41.713332] (-) TimerEvent: {}
+[41.815186] (-) TimerEvent: {}
+[41.887917] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_trafficlight_pb2.py to osi_trafficlight_pb2.cpython-310.pyc\n'}
+[41.915370] (-) TimerEvent: {}
+[42.018646] (-) TimerEvent: {}
+[42.100139] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_trafficsign_pb2.py to osi_trafficsign_pb2.cpython-310.pyc\n'}
+[42.118648] (-) TimerEvent: {}
+[42.219641] (-) TimerEvent: {}
+[42.296511] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_trafficupdate_pb2.py to osi_trafficupdate_pb2.cpython-310.pyc\n'}
+[42.319780] (-) TimerEvent: {}
+[42.420863] (-) TimerEvent: {}
+[42.494763] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_version_pb2.py to osi_version_pb2.cpython-310.pyc\n'}
+[42.520919] (-) TimerEvent: {}
+[42.622102] (-) TimerEvent: {}
+[42.656546] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/__init__.py to __init__.cpython-310.pyc\n'}
+[42.722265] (-) TimerEvent: {}
+[42.823405] (-) TimerEvent: {}
+[42.879616] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/protobuf/dss_pb2.py to dss_pb2.cpython-310.pyc\n'}
+[42.923552] (-) TimerEvent: {}
+[43.024485] (-) TimerEvent: {}
+[43.066093] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/protobuf/__init__.py to __init__.cpython-310.pyc\n'}
+[43.124928] (-) TimerEvent: {}
+[43.226121] (-) TimerEvent: {}
+[43.264993] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/utils/formatter.py to formatter.cpython-310.pyc\n'}
+[43.326278] (-) TimerEvent: {}
+[43.427238] (-) TimerEvent: {}
+[43.455160] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/utils/logger.py to logger.cpython-310.pyc\n'}
+[43.527466] (-) TimerEvent: {}
+[43.629243] (-) TimerEvent: {}
+[43.655611] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/utils/__init__.py to __init__.cpython-310.pyc\n'}
+[43.729388] (-) TimerEvent: {}
+[43.832820] (-) TimerEvent: {}
+[43.859392] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/__init__.py to __init__.cpython-310.pyc\n'}
+[43.932915] (-) TimerEvent: {}
+[44.034584] (-) TimerEvent: {}
+[44.036797] (dss_bridge) StdoutLine: {'line': b'byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/__init__.py to __init__.cpython-310.pyc\n'}
+[44.134662] (-) TimerEvent: {}
+[44.185609] (dss_bridge) StdoutLine: {'line': b'running install_data\n'}
+[44.220558] (dss_bridge) StdoutLine: {'line': b'copying resource/dss_bridge -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/ament_index/resource_index/packages\n'}
+[44.234817] (-) TimerEvent: {}
+[44.336950] (-) TimerEvent: {}
+[44.338678] (dss_bridge) StdoutLine: {'line': b'copying package.xml -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/dss_bridge\n'}
+[44.415850] (dss_bridge) StdoutLine: {'line': b'running install_egg_info\n'}
+[44.437030] (-) TimerEvent: {}
+[44.507425] (dss_bridge) StdoutLine: {'line': b'Copying ../../../../build/dss_bridge/dss_bridge.egg-info to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge-0.0.0-py3.10.egg-info\n'}
+[44.537180] (-) TimerEvent: {}
+[44.639148] (-) TimerEvent: {}
+[44.740518] (-) TimerEvent: {}
+[44.841195] (-) TimerEvent: {}
+[44.944290] (-) TimerEvent: {}
+[45.045545] (-) TimerEvent: {}
+[45.147395] (-) TimerEvent: {}
+[45.250053] (-) TimerEvent: {}
+[45.352038] (-) TimerEvent: {}
+[45.454888] (-) TimerEvent: {}
+[45.557948] (-) TimerEvent: {}
+[45.647319] (dss_bridge) StdoutLine: {'line': b'running install_scripts\n'}
+[45.658087] (-) TimerEvent: {}
+[45.759063] (-) TimerEvent: {}
+[45.859904] (-) TimerEvent: {}
+[45.962087] (-) TimerEvent: {}
+[45.997788] (dss_bridge) StdoutLine: {'line': b'Installing dss_bridge_node script to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/dss_bridge\n'}
+[46.047775] (dss_bridge) StdoutLine: {'line': b'Installing dss_car_control_node script to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/dss_bridge\n'}
+[46.062314] (-) TimerEvent: {}
+[46.146632] (dss_bridge) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/install.log'\n"}
+[46.162479] (-) TimerEvent: {}
+[46.193050] (dss_bridge) CommandEnded: {'returncode': 0}
+[46.262610] (-) TimerEvent: {}
+[46.364163] (-) TimerEvent: {}
+[46.465830] (-) TimerEvent: {}
+[46.567367] (-) TimerEvent: {}
+[46.669435] (-) TimerEvent: {}
+[46.771756] (-) TimerEvent: {}
+[46.873483] (-) TimerEvent: {}
+[46.975515] (-) TimerEvent: {}
+[47.077128] (-) TimerEvent: {}
+[47.178279] (-) TimerEvent: {}
+[47.281361] (-) TimerEvent: {}
+[47.384261] (-) TimerEvent: {}
+[47.486097] (-) TimerEvent: {}
+[47.587255] (-) TimerEvent: {}
+[47.688460] (-) TimerEvent: {}
+[47.758705] (dss_bridge) JobEnded: {'identifier': 'dss_bridge', 'rc': 0}
+[47.789638] (-) TimerEvent: {}
+[47.790831] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+[1.486s] Invoking command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control': CMAKE_PREFIX_PATH=/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control -- -j16 -l16
+[1.877s] [100%] Built target cruise_control_node
+[1.923s] Invoked command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control' returned '0': CMAKE_PREFIX_PATH=/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control -- -j16 -l16
+[1.973s] Invoking command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control': CMAKE_PREFIX_PATH=/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control
+[1.987s] -- Install configuration: ""
+[2.010s] -- Execute custom install script
+[2.082s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/lib/dss_cruise_control/cruise_control_node
+[2.155s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control//launch/cruise_control.launch.py
+[2.263s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/ament_index/resource_index/package_run_dependencies/dss_cruise_control
+[2.369s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/ament_index/resource_index/parent_prefix_path/dss_cruise_control
+[2.412s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/environment/ament_prefix_path.sh
+[2.463s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/environment/ament_prefix_path.dsv
+[2.505s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/environment/path.sh
+[2.558s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/environment/path.dsv
+[2.597s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/local_setup.bash
+[2.642s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/local_setup.sh
+[2.684s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/local_setup.zsh
+[2.728s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/local_setup.dsv
+[2.750s] -- Symlinking: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/package.dsv
+[2.935s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/ament_index/resource_index/packages/dss_cruise_control
+[2.992s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/cmake/dss_cruise_controlConfig.cmake
+[3.054s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/cmake/dss_cruise_controlConfig-version.cmake
+[3.113s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/package.xml
+[3.122s] Invoked command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control' returned '0': CMAKE_PREFIX_PATH=/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control

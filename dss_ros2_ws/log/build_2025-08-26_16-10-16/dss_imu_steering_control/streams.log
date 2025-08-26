@@ -1,0 +1,57 @@
+[2.509s] Invoking command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control -- -j16 -l16
+[2.875s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.238s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.502s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[5.014s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.017s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.023s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.046s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.082s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.178s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.180s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[25.186s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[25.226s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[25.251s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[25.260s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[25.267s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[25.271s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[25.358s] -- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found suitable version "3.10.5", minimum required is "3.2.0") 
+[25.743s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[28.538s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[28.542s] -- Configured cppcheck include dirs: 
+[28.544s] -- Configured cppcheck exclude dirs and/or files: 
+[28.781s] -- Added test 'flake8' to check Python code syntax and style conventions
+[29.144s] -- Added test 'lint_cmake' to check CMake code style
+[29.277s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[30.404s] -- Added test 'uncrustify' to check C / C++ code style
+[30.406s] -- Configured uncrustify additional arguments: 
+[30.609s] -- Added test 'xmllint' to check XML markup files
+[30.880s] -- Configuring done
+[31.782s] -- Generating done
+[32.305s] -- Build files have been written to: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control
+[32.574s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_steering_control_node.dir/src/imu_steering_control_node.cpp.o[0m
+[49.552s] [100%] [32m[1mLinking CXX executable imu_steering_control_node[0m
+[62.777s] [100%] Built target imu_steering_control_node
+[62.826s] Invoked command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control -- -j16 -l16
+[62.874s] Invoking command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control
+[62.887s] -- Install configuration: ""
+[62.925s] -- Execute custom install script
+[62.989s] -- Symlinking: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/lib/dss_imu_steering_control/imu_steering_control_node
+[63.123s] -- Symlinking: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/ui/steering_control.ui
+[63.234s] -- Symlinking: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/lib/dss_imu_steering_control/simple_steering_gui.py
+[63.444s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/ament_index/resource_index/package_run_dependencies/dss_imu_steering_control
+[63.578s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/ament_index/resource_index/parent_prefix_path/dss_imu_steering_control
+[63.635s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/environment/ament_prefix_path.sh
+[63.707s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/environment/ament_prefix_path.dsv
+[63.779s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/environment/path.sh
+[63.856s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/environment/path.dsv
+[63.911s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/local_setup.bash
+[63.983s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/local_setup.sh
+[64.047s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/local_setup.zsh
+[64.101s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/local_setup.dsv
+[64.125s] -- Symlinking: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/package.dsv
+[64.397s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/ament_index/resource_index/packages/dss_imu_steering_control
+[64.481s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/cmake/dss_imu_steering_controlConfig.cmake
+[64.539s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/cmake/dss_imu_steering_controlConfig-version.cmake
+[64.593s] -- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/package.xml
+[64.602s] Invoked command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control

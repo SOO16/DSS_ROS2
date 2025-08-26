@@ -1,0 +1,27 @@
+[4.581s] Invoking command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control -- -j16 -l16
+[5.104s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.099s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.517s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[8.483s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.488s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.495s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.537s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.592s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.678s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.708s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[39.641s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[39.713s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[39.856s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[40.753s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[40.754s]   ament_package_xml() package name 'dss_imu_steering_control' in
+[40.757s]   '/package.xml' does not match current PROJECT_NAME 'dss_cruise_control'.
+[40.762s]   You must call project() with the same package name before.
+[40.763s] Call Stack (most recent call first):
+[40.765s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[40.767s]   CMakeLists.txt:53 (ament_lint_auto_find_test_dependencies)
+[40.770s] 
+[40.774s] [0m
+[40.776s] -- Configuring incomplete, errors occurred!
+[40.778s] See also "/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control/CMakeFiles/CMakeOutput.log".
+[40.825s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[40.827s] Invoked command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control -- -j16 -l16

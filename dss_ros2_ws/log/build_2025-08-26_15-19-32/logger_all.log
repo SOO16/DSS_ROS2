@@ -1,0 +1,260 @@
+[1.220s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.221s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd49161ff10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd49161eef0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd49161eef0>>)
+[1.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.868s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.868s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.870s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge) by extension 'ignore'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge) by extension 'ignore_ament_install'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge) by extensions ['colcon_pkg']
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge) by extension 'colcon_pkg'
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge) by extensions ['colcon_meta']
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge) by extension 'colcon_meta'
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge) by extensions ['ros']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge) by extension 'ros'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge) by extensions ['cmake', 'python']
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge) by extension 'cmake'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge) by extension 'python'
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge) by extensions ['python_setup_py']
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge) by extension 'python_setup_py'
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src) by extensions ['ignore', 'ignore_ament_install']
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src) by extension 'ignore'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src) by extension 'ignore_ament_install'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src) by extensions ['colcon_pkg']
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src) by extension 'colcon_pkg'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src) by extensions ['colcon_meta']
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src) by extension 'colcon_meta'
+[2.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src) by extensions ['ros']
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src) by extension 'ros'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src) by extensions ['cmake', 'python']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src) by extension 'cmake'
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src) by extension 'python'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src) by extensions ['python_setup_py']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src) by extension 'python_setup_py'
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src/dss_bridge) by extensions ['ignore', 'ignore_ament_install']
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src/dss_bridge) by extension 'ignore'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src/dss_bridge) by extension 'ignore_ament_install'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src/dss_bridge) by extensions ['colcon_pkg']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src/dss_bridge) by extension 'colcon_pkg'
+[2.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src/dss_bridge) by extensions ['colcon_meta']
+[2.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src/dss_bridge) by extension 'colcon_meta'
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src/dss_bridge) by extensions ['ros']
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss-ros2-bridge/src/dss_bridge) by extension 'ros'
+[2.055s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dss-ros2-bridge/src/dss_bridge' with type 'ros.ament_python' and name 'dss_bridge'
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_cruise_control) by extensions ['ignore', 'ignore_ament_install']
+[2.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_cruise_control) by extension 'ignore'
+[2.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_cruise_control) by extension 'ignore_ament_install'
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_cruise_control) by extensions ['colcon_pkg']
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_cruise_control) by extension 'colcon_pkg'
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_cruise_control) by extensions ['colcon_meta']
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_cruise_control) by extension 'colcon_meta'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_cruise_control) by extensions ['ros']
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_cruise_control) by extension 'ros'
+[2.100s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dss_cruise_control' with type 'ros.ament_cmake' and name 'dss_cruise_control'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_imu_steering_control) by extensions ['ignore', 'ignore_ament_install']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_imu_steering_control) by extension 'ignore'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_imu_steering_control) by extension 'ignore_ament_install'
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_imu_steering_control) by extensions ['colcon_pkg']
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_imu_steering_control) by extension 'colcon_pkg'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_imu_steering_control) by extensions ['colcon_meta']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_imu_steering_control) by extension 'colcon_meta'
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_imu_steering_control) by extensions ['ros']
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/dss_imu_steering_control) by extension 'ros'
+[2.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dss_imu_steering_control' with type 'ros.ament_cmake' and name 'dss_imu_steering_control'
+[2.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.531s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install
+[2.532s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 295 installed packages in /opt/ros/humble
+[2.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.688s] Level 5:colcon.colcon_core.verb:set package 'dss_bridge' build argument 'cmake_args' from command line to 'None'
+[2.692s] Level 5:colcon.colcon_core.verb:set package 'dss_bridge' build argument 'cmake_target' from command line to 'None'
+[2.693s] Level 5:colcon.colcon_core.verb:set package 'dss_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.693s] Level 5:colcon.colcon_core.verb:set package 'dss_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[2.693s] Level 5:colcon.colcon_core.verb:set package 'dss_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[2.693s] Level 5:colcon.colcon_core.verb:set package 'dss_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[2.694s] Level 5:colcon.colcon_core.verb:set package 'dss_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[2.694s] Level 5:colcon.colcon_core.verb:set package 'dss_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[2.694s] Level 5:colcon.colcon_core.verb:set package 'dss_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.695s] DEBUG:colcon.colcon_core.verb:Building package 'dss_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge', 'merge_install': False, 'path': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss-ros2-bridge/src/dss_bridge', 'symlink_install': False, 'test_result_base': None}
+[2.695s] Level 5:colcon.colcon_core.verb:set package 'dss_cruise_control' build argument 'cmake_args' from command line to 'None'
+[2.695s] Level 5:colcon.colcon_core.verb:set package 'dss_cruise_control' build argument 'cmake_target' from command line to 'None'
+[2.696s] Level 5:colcon.colcon_core.verb:set package 'dss_cruise_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.696s] Level 5:colcon.colcon_core.verb:set package 'dss_cruise_control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.697s] Level 5:colcon.colcon_core.verb:set package 'dss_cruise_control' build argument 'cmake_clean_first' from command line to 'False'
+[2.697s] Level 5:colcon.colcon_core.verb:set package 'dss_cruise_control' build argument 'cmake_force_configure' from command line to 'False'
+[2.697s] Level 5:colcon.colcon_core.verb:set package 'dss_cruise_control' build argument 'ament_cmake_args' from command line to 'None'
+[2.697s] Level 5:colcon.colcon_core.verb:set package 'dss_cruise_control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.698s] Level 5:colcon.colcon_core.verb:set package 'dss_cruise_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.698s] DEBUG:colcon.colcon_core.verb:Building package 'dss_cruise_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control', 'merge_install': False, 'path': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss_cruise_control', 'symlink_install': False, 'test_result_base': None}
+[2.699s] Level 5:colcon.colcon_core.verb:set package 'dss_imu_steering_control' build argument 'cmake_args' from command line to 'None'
+[2.699s] Level 5:colcon.colcon_core.verb:set package 'dss_imu_steering_control' build argument 'cmake_target' from command line to 'None'
+[2.700s] Level 5:colcon.colcon_core.verb:set package 'dss_imu_steering_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.700s] Level 5:colcon.colcon_core.verb:set package 'dss_imu_steering_control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.701s] Level 5:colcon.colcon_core.verb:set package 'dss_imu_steering_control' build argument 'cmake_clean_first' from command line to 'False'
+[2.701s] Level 5:colcon.colcon_core.verb:set package 'dss_imu_steering_control' build argument 'cmake_force_configure' from command line to 'False'
+[2.702s] Level 5:colcon.colcon_core.verb:set package 'dss_imu_steering_control' build argument 'ament_cmake_args' from command line to 'None'
+[2.702s] Level 5:colcon.colcon_core.verb:set package 'dss_imu_steering_control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.703s] Level 5:colcon.colcon_core.verb:set package 'dss_imu_steering_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.703s] DEBUG:colcon.colcon_core.verb:Building package 'dss_imu_steering_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control', 'merge_install': False, 'path': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss_imu_steering_control', 'symlink_install': False, 'test_result_base': None}
+[2.703s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.705s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.705s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss-ros2-bridge/src/dss_bridge' with build type 'ament_python'
+[2.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('dss_bridge', 'ament_prefix_path')
+[2.736s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/dss_bridge/hook/ament_prefix_path.ps1'
+[2.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/dss_bridge/hook/ament_prefix_path.dsv'
+[2.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/dss_bridge/hook/ament_prefix_path.sh'
+[2.869s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.870s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.051s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss_cruise_control' with build type 'ament_cmake'
+[3.053s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss_cruise_control'
+[3.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.221s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss_imu_steering_control' with build type 'ament_cmake'
+[3.223s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss_imu_steering_control'
+[3.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.456s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss-ros2-bridge/src/dss_bridge'
+[5.457s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.457s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control -- -j16 -l16
+[5.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake /mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss_imu_steering_control -DCMAKE_INSTALL_PREFIX=/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control
+[7.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control -- -j16 -l16
+[7.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control
+[8.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss-ros2-bridge/src/dss_bridge': PYTHONPATH=/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/dss_bridge build --build-base /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build install --record /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/install.log --single-version-externally-managed install_data
+[9.460s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dss_cruise_control)
+[9.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control
+[9.475s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control' for CMake module files
+[9.790s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control' for CMake config files
+[10.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('dss_cruise_control', 'cmake_prefix_path')
+[10.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/hook/cmake_prefix_path.ps1'
+[10.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/hook/cmake_prefix_path.dsv'
+[10.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/hook/cmake_prefix_path.sh'
+[10.236s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/lib'
+[10.248s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/bin'
+[10.249s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/lib/pkgconfig/dss_cruise_control.pc'
+[10.254s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/lib/python3.10/site-packages'
+[10.260s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/bin'
+[10.264s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/package.ps1'
+[10.297s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/package.dsv'
+[10.332s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/package.sh'
+[10.378s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/package.bash'
+[10.412s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/package.zsh'
+[10.446s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/colcon-core/packages/dss_cruise_control)
+[10.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dss_cruise_control)
+[10.511s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control' for CMake module files
+[10.818s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control' for CMake config files
+[11.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('dss_cruise_control', 'cmake_prefix_path')
+[11.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/hook/cmake_prefix_path.ps1'
+[11.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/hook/cmake_prefix_path.dsv'
+[11.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/hook/cmake_prefix_path.sh'
+[11.283s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/lib'
+[11.298s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/bin'
+[11.303s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/lib/pkgconfig/dss_cruise_control.pc'
+[11.310s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/lib/python3.10/site-packages'
+[11.314s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/bin'
+[11.320s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/package.ps1'
+[11.371s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/package.dsv'
+[11.426s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/package.sh'
+[11.469s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/package.bash'
+[11.509s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/package.zsh'
+[11.557s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/colcon-core/packages/dss_cruise_control)
+[22.072s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge' for CMake module files
+[22.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss-ros2-bridge/src/dss_bridge' returned '0': PYTHONPATH=/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/dss_bridge build --build-base /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build install --record /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/install.log --single-version-externally-managed install_data
+[22.241s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge' for CMake config files
+[23.028s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib'
+[23.040s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/bin'
+[23.043s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/pkgconfig/dss_bridge.pc'
+[23.047s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages'
+[23.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('dss_bridge', 'pythonpath')
+[23.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/dss_bridge/hook/pythonpath.ps1'
+[23.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/dss_bridge/hook/pythonpath.dsv'
+[23.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/dss_bridge/hook/pythonpath.sh'
+[23.200s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/bin'
+[23.204s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dss_bridge)
+[23.206s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/dss_bridge/package.ps1'
+[23.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/dss_bridge/package.dsv'
+[23.277s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/dss_bridge/package.sh'
+[23.318s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/dss_bridge/package.bash'
+[23.365s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/dss_bridge/package.zsh'
+[23.402s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/colcon-core/packages/dss_bridge)
+[33.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake /mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss_imu_steering_control -DCMAKE_INSTALL_PREFIX=/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control
+[33.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dss_imu_steering_control)
+[33.864s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control' for CMake module files
+[33.969s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control' for CMake config files
+[34.034s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/bin'
+[34.036s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/lib/pkgconfig/dss_imu_steering_control.pc'
+[34.039s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/lib/python3.10/site-packages'
+[34.046s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/bin'
+[34.051s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/package.ps1'
+[34.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/package.dsv'
+[34.126s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/package.sh'
+[34.153s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/package.bash'
+[34.200s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/package.zsh'
+[34.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/colcon-core/packages/dss_imu_steering_control)
+[34.269s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[34.270s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[34.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[34.271s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[34.486s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[34.486s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[34.487s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[34.487s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[34.488s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[34.488s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[34.489s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/local_setup.ps1'
+[34.504s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/_local_setup_util_ps1.py'
+[34.521s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/setup.ps1'
+[34.576s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/local_setup.sh'
+[34.602s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/_local_setup_util_sh.py'
+[34.619s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/setup.sh'
+[34.689s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/local_setup.bash'
+[34.705s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/setup.bash'
+[34.767s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/local_setup.zsh'
+[34.786s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/setup.zsh'

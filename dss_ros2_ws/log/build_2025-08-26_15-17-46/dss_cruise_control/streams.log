@@ -1,0 +1,29 @@
+[2.470s] Invoking command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble /usr/bin/cmake /mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss_cruise_control -DCMAKE_INSTALL_PREFIX=/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control
+[2.669s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.731s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.992s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[4.491s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.494s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.499s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.526s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.568s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.640s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.649s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.573s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.617s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[13.762s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.308s] -- Added test 'copyright' to check source files copyright and LICENSE
+[16.185s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.188s] -- Configured cppcheck include dirs: 
+[16.190s] -- Configured cppcheck exclude dirs and/or files: 
+[17.299s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[17.300s] -- Configured cpplint exclude dirs and/or files: 
+[17.409s] -- Added test 'flake8' to check Python code syntax and style conventions
+[17.650s] -- Added test 'lint_cmake' to check CMake code style
+[17.756s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[18.635s] -- Added test 'uncrustify' to check C / C++ code style
+[18.640s] -- Configured uncrustify additional arguments: 
+[18.786s] -- Added test 'xmllint' to check XML markup files
+[19.084s] -- Configuring done
+[20.158s] -- Generating done
+[20.745s] -- Build files have been written to: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control

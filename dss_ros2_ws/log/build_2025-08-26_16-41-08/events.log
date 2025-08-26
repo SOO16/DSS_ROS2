@@ -1,0 +1,376 @@
+[0.000000] (-) TimerEvent: {}
+[0.000518] (dss_bridge) JobQueued: {'identifier': 'dss_bridge', 'dependencies': OrderedDict()}
+[0.000848] (dss_cruise_control) JobQueued: {'identifier': 'dss_cruise_control', 'dependencies': OrderedDict()}
+[0.001236] (dss_imu_steering_control) JobQueued: {'identifier': 'dss_imu_steering_control', 'dependencies': OrderedDict()}
+[0.001480] (dss_bridge) JobStarted: {'identifier': 'dss_bridge'}
+[0.097313] (-) TimerEvent: {}
+[0.180927] (dss_cruise_control) JobStarted: {'identifier': 'dss_cruise_control'}
+[0.197479] (-) TimerEvent: {}
+[0.289216] (dss_imu_steering_control) JobStarted: {'identifier': 'dss_imu_steering_control'}
+[0.297630] (-) TimerEvent: {}
+[0.398591] (-) TimerEvent: {}
+[0.499140] (-) TimerEvent: {}
+[0.600491] (-) TimerEvent: {}
+[0.700939] (-) TimerEvent: {}
+[0.801579] (-) TimerEvent: {}
+[0.902238] (-) TimerEvent: {}
+[1.002732] (-) TimerEvent: {}
+[1.103298] (-) TimerEvent: {}
+[1.204096] (-) TimerEvent: {}
+[1.304780] (-) TimerEvent: {}
+[1.405612] (-) TimerEvent: {}
+[1.506338] (-) TimerEvent: {}
+[1.553172] (dss_cruise_control) JobProgress: {'identifier': 'dss_cruise_control', 'progress': 'cmake'}
+[1.577830] (dss_cruise_control) JobProgress: {'identifier': 'dss_cruise_control', 'progress': 'build'}
+[1.587555] (dss_cruise_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control', '--', '-j16', '-l16'], 'cwd': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tukorea'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/tukorea'), ('OLDPWD', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss-ros2-bridge/src/dss_bridge/dss_bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tukorea'), ('NAME', 'b226-12'), ('WSL_INTEROP', '/run/WSL/303_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tukorea/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Python313/Scripts/:/mnt/c/Program Files/Python313/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/Naraesoft/MagicRecovery/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '2fa6fc6e-0836-4952-896b-a6c04b301df6'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8c475f66-4f53-4b09-ad4b-dd32e25cf988'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[1.610686] (-) TimerEvent: {}
+[1.618221] (dss_imu_steering_control) JobProgress: {'identifier': 'dss_imu_steering_control', 'progress': 'cmake'}
+[1.643806] (dss_imu_steering_control) JobProgress: {'identifier': 'dss_imu_steering_control', 'progress': 'build'}
+[1.651553] (dss_imu_steering_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control', '--', '-j16', '-l16'], 'cwd': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tukorea'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/tukorea'), ('OLDPWD', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss-ros2-bridge/src/dss_bridge/dss_bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tukorea'), ('NAME', 'b226-12'), ('WSL_INTEROP', '/run/WSL/303_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tukorea/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Python313/Scripts/:/mnt/c/Program Files/Python313/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/Naraesoft/MagicRecovery/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '2fa6fc6e-0836-4952-896b-a6c04b301df6'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8c475f66-4f53-4b09-ad4b-dd32e25cf988'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[1.710810] (-) TimerEvent: {}
+[1.811525] (-) TimerEvent: {}
+[1.883513] (dss_imu_steering_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_steering_control_node\x1b[0m\n'}
+[1.899846] (dss_cruise_control) StdoutLine: {'line': b'[100%] Built target cruise_control_node\n'}
+[1.911664] (-) TimerEvent: {}
+[1.940052] (dss_cruise_control) CommandEnded: {'returncode': 0}
+[1.968884] (dss_cruise_control) JobProgress: {'identifier': 'dss_cruise_control', 'progress': 'install'}
+[1.984338] (dss_cruise_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control'], 'cwd': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tukorea'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/tukorea'), ('OLDPWD', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss-ros2-bridge/src/dss_bridge/dss_bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tukorea'), ('NAME', 'b226-12'), ('WSL_INTEROP', '/run/WSL/303_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tukorea/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Python313/Scripts/:/mnt/c/Program Files/Python313/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/Naraesoft/MagicRecovery/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '2fa6fc6e-0836-4952-896b-a6c04b301df6'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8c475f66-4f53-4b09-ad4b-dd32e25cf988'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[1.997126] (dss_cruise_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.011775] (-) TimerEvent: {}
+[2.014993] (dss_cruise_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.051761] (dss_cruise_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/lib/dss_cruise_control/cruise_control_node\n'}
+[2.111925] (-) TimerEvent: {}
+[2.117253] (dss_cruise_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control//launch/cruise_control.launch.py\n'}
+[2.202586] (dss_cruise_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/ament_index/resource_index/package_run_dependencies/dss_cruise_control\n'}
+[2.212089] (-) TimerEvent: {}
+[2.286907] (dss_cruise_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/ament_index/resource_index/parent_prefix_path/dss_cruise_control\n'}
+[2.312197] (-) TimerEvent: {}
+[2.326589] (dss_cruise_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/environment/ament_prefix_path.sh\n'}
+[2.363961] (dss_cruise_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/environment/ament_prefix_path.dsv\n'}
+[2.395414] (dss_cruise_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/environment/path.sh\n'}
+[2.412389] (-) TimerEvent: {}
+[2.439831] (dss_cruise_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/environment/path.dsv\n'}
+[2.472131] (dss_cruise_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/local_setup.bash\n'}
+[2.503224] (dss_cruise_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/local_setup.sh\n'}
+[2.512541] (-) TimerEvent: {}
+[2.540947] (dss_cruise_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/local_setup.zsh\n'}
+[2.574260] (dss_cruise_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/local_setup.dsv\n'}
+[2.591747] (dss_cruise_control) StdoutLine: {'line': b'-- Symlinking: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/package.dsv\n'}
+[2.612692] (-) TimerEvent: {}
+[2.638216] (dss_imu_steering_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/imu_steering_control_node.dir/src/imu_steering_control_node.cpp.o\x1b[0m\n'}
+[2.712808] (-) TimerEvent: {}
+[2.718780] (dss_cruise_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/ament_index/resource_index/packages/dss_cruise_control\n'}
+[2.762364] (dss_cruise_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/cmake/dss_cruise_controlConfig.cmake\n'}
+[2.800850] (dss_cruise_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/cmake/dss_cruise_controlConfig-version.cmake\n'}
+[2.812946] (-) TimerEvent: {}
+[2.834839] (dss_cruise_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control/share/dss_cruise_control/package.xml\n'}
+[2.844527] (dss_cruise_control) CommandEnded: {'returncode': 0}
+[2.913184] (-) TimerEvent: {}
+[3.013843] (-) TimerEvent: {}
+[3.114490] (-) TimerEvent: {}
+[3.215051] (-) TimerEvent: {}
+[3.315873] (-) TimerEvent: {}
+[3.417403] (-) TimerEvent: {}
+[3.518024] (-) TimerEvent: {}
+[3.619100] (-) TimerEvent: {}
+[3.720276] (-) TimerEvent: {}
+[3.820995] (-) TimerEvent: {}
+[3.921817] (-) TimerEvent: {}
+[4.008439] (dss_cruise_control) JobEnded: {'identifier': 'dss_cruise_control', 'rc': 0}
+[4.021935] (-) TimerEvent: {}
+[4.023786] (dss_bridge) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/dss_bridge', 'build', '--build-base', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build', 'install', '--record', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss-ros2-bridge/src/dss_bridge', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tukorea', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/tukorea', 'OLDPWD': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss-ros2-bridge/src/dss_bridge/dss_bridge', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tukorea', 'NAME': 'b226-12', 'WSL_INTEROP': '/run/WSL/303_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/tukorea/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Python313/Scripts/:/mnt/c/Program Files/Python313/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/Naraesoft/MagicRecovery/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/AppData/Roaming/npm:/snap/bin', 'WT_SESSION': '2fa6fc6e-0836-4952-896b-a6c04b301df6', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:8c475f66-4f53-4b09-ad4b-dd32e25cf988', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'VTE_VERSION': '6800', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[4.122021] (-) TimerEvent: {}
+[4.222556] (-) TimerEvent: {}
+[4.322998] (-) TimerEvent: {}
+[4.423608] (-) TimerEvent: {}
+[4.524072] (-) TimerEvent: {}
+[4.624777] (-) TimerEvent: {}
+[4.725532] (-) TimerEvent: {}
+[4.826634] (-) TimerEvent: {}
+[4.927515] (-) TimerEvent: {}
+[5.028249] (-) TimerEvent: {}
+[5.128896] (-) TimerEvent: {}
+[5.229533] (-) TimerEvent: {}
+[5.330370] (-) TimerEvent: {}
+[5.400935] (dss_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[5.406546] (dss_bridge) StdoutLine: {'line': b'writing ../../../../build/dss_bridge/dss_bridge.egg-info/PKG-INFO\n'}
+[5.414546] (dss_bridge) StdoutLine: {'line': b'writing dependency_links to ../../../../build/dss_bridge/dss_bridge.egg-info/dependency_links.txt\n'}
+[5.421923] (dss_bridge) StdoutLine: {'line': b'writing entry points to ../../../../build/dss_bridge/dss_bridge.egg-info/entry_points.txt\n'}
+[5.428931] (dss_bridge) StdoutLine: {'line': b'writing requirements to ../../../../build/dss_bridge/dss_bridge.egg-info/requires.txt\n'}
+[5.430710] (-) TimerEvent: {}
+[5.434718] (dss_bridge) StdoutLine: {'line': b'writing top-level names to ../../../../build/dss_bridge/dss_bridge.egg-info/top_level.txt\n'}
+[5.530849] (-) TimerEvent: {}
+[5.631533] (-) TimerEvent: {}
+[5.634944] (dss_bridge) StdoutLine: {'line': b"reading manifest file '../../../../build/dss_bridge/dss_bridge.egg-info/SOURCES.txt'\n"}
+[5.731678] (-) TimerEvent: {}
+[5.832652] (-) TimerEvent: {}
+[5.933373] (-) TimerEvent: {}
+[5.950272] (dss_bridge) StdoutLine: {'line': b"writing manifest file '../../../../build/dss_bridge/dss_bridge.egg-info/SOURCES.txt'\n"}
+[5.956225] (dss_bridge) StdoutLine: {'line': b'running build\n'}
+[5.957656] (dss_bridge) StdoutLine: {'line': b'running build_py\n'}
+[6.033529] (-) TimerEvent: {}
+[6.134261] (-) TimerEvent: {}
+[6.235056] (-) TimerEvent: {}
+[6.335754] (-) TimerEvent: {}
+[6.436471] (-) TimerEvent: {}
+[6.537038] (-) TimerEvent: {}
+[6.637513] (-) TimerEvent: {}
+[6.738169] (-) TimerEvent: {}
+[6.839190] (-) TimerEvent: {}
+[6.939865] (-) TimerEvent: {}
+[7.040413] (-) TimerEvent: {}
+[7.141056] (-) TimerEvent: {}
+[7.241750] (-) TimerEvent: {}
+[7.327548] (dss_bridge) StdoutLine: {'line': b'running install\n'}
+[7.328890] (dss_bridge) StdoutLine: {'line': b'running install_lib\n'}
+[7.341853] (-) TimerEvent: {}
+[7.442544] (-) TimerEvent: {}
+[7.543270] (-) TimerEvent: {}
+[7.644260] (-) TimerEvent: {}
+[7.744888] (-) TimerEvent: {}
+[7.845518] (-) TimerEvent: {}
+[7.946081] (-) TimerEvent: {}
+[8.046749] (-) TimerEvent: {}
+[8.147420] (-) TimerEvent: {}
+[8.248128] (-) TimerEvent: {}
+[8.348737] (-) TimerEvent: {}
+[8.449354] (-) TimerEvent: {}
+[8.550139] (-) TimerEvent: {}
+[8.650897] (-) TimerEvent: {}
+[8.751892] (-) TimerEvent: {}
+[8.852734] (-) TimerEvent: {}
+[8.953486] (-) TimerEvent: {}
+[9.054162] (-) TimerEvent: {}
+[9.155010] (-) TimerEvent: {}
+[9.255618] (-) TimerEvent: {}
+[9.356184] (-) TimerEvent: {}
+[9.456851] (-) TimerEvent: {}
+[9.557756] (-) TimerEvent: {}
+[9.658345] (-) TimerEvent: {}
+[9.759205] (-) TimerEvent: {}
+[9.859941] (-) TimerEvent: {}
+[9.960509] (-) TimerEvent: {}
+[10.061123] (-) TimerEvent: {}
+[10.161872] (-) TimerEvent: {}
+[10.262446] (-) TimerEvent: {}
+[10.362905] (-) TimerEvent: {}
+[10.463457] (-) TimerEvent: {}
+[10.564002] (-) TimerEvent: {}
+[10.570095] (dss_bridge) StdoutLine: {'line': b'running install_data\n'}
+[10.613241] (dss_bridge) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.632231] (dss_bridge) StdoutLine: {'line': b"removing '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.664110] (-) TimerEvent: {}
+[10.729293] (dss_bridge) StdoutLine: {'line': b'Copying ../../../../build/dss_bridge/dss_bridge.egg-info to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge-0.0.0-py3.10.egg-info\n'}
+[10.764193] (-) TimerEvent: {}
+[10.864754] (-) TimerEvent: {}
+[10.965297] (-) TimerEvent: {}
+[11.065944] (-) TimerEvent: {}
+[11.135113] (dss_bridge) StdoutLine: {'line': b'running install_scripts\n'}
+[11.166086] (-) TimerEvent: {}
+[11.247394] (dss_bridge) StdoutLine: {'line': b'Installing dss_bridge_node script to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/dss_bridge\n'}
+[11.266199] (-) TimerEvent: {}
+[11.266984] (dss_bridge) StdoutLine: {'line': b'Installing dss_car_control_node script to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/dss_bridge\n'}
+[11.313263] (dss_bridge) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/install.log'\n"}
+[11.351533] (dss_bridge) CommandEnded: {'returncode': 0}
+[11.366265] (-) TimerEvent: {}
+[11.466838] (-) TimerEvent: {}
+[11.567488] (-) TimerEvent: {}
+[11.668343] (-) TimerEvent: {}
+[11.768848] (-) TimerEvent: {}
+[11.869497] (-) TimerEvent: {}
+[11.952935] (dss_bridge) JobEnded: {'identifier': 'dss_bridge', 'rc': 0}
+[11.969625] (-) TimerEvent: {}
+[12.070174] (-) TimerEvent: {}
+[12.170911] (-) TimerEvent: {}
+[12.271804] (-) TimerEvent: {}
+[12.372427] (-) TimerEvent: {}
+[12.473003] (-) TimerEvent: {}
+[12.573682] (-) TimerEvent: {}
+[12.674713] (-) TimerEvent: {}
+[12.775409] (-) TimerEvent: {}
+[12.876012] (-) TimerEvent: {}
+[12.976692] (-) TimerEvent: {}
+[13.077277] (-) TimerEvent: {}
+[13.178140] (-) TimerEvent: {}
+[13.278812] (-) TimerEvent: {}
+[13.379531] (-) TimerEvent: {}
+[13.480210] (-) TimerEvent: {}
+[13.580724] (-) TimerEvent: {}
+[13.681202] (-) TimerEvent: {}
+[13.781911] (-) TimerEvent: {}
+[13.882619] (-) TimerEvent: {}
+[13.983506] (-) TimerEvent: {}
+[14.084323] (-) TimerEvent: {}
+[14.185190] (-) TimerEvent: {}
+[14.286121] (-) TimerEvent: {}
+[14.386846] (-) TimerEvent: {}
+[14.487673] (-) TimerEvent: {}
+[14.588432] (-) TimerEvent: {}
+[14.689091] (-) TimerEvent: {}
+[14.789651] (-) TimerEvent: {}
+[14.890412] (-) TimerEvent: {}
+[14.991282] (-) TimerEvent: {}
+[15.092309] (-) TimerEvent: {}
+[15.193118] (-) TimerEvent: {}
+[15.293829] (-) TimerEvent: {}
+[15.394362] (-) TimerEvent: {}
+[15.495057] (-) TimerEvent: {}
+[15.595995] (-) TimerEvent: {}
+[15.696804] (-) TimerEvent: {}
+[15.797389] (-) TimerEvent: {}
+[15.898096] (-) TimerEvent: {}
+[15.998607] (-) TimerEvent: {}
+[16.099139] (-) TimerEvent: {}
+[16.199778] (-) TimerEvent: {}
+[16.300443] (-) TimerEvent: {}
+[16.401169] (-) TimerEvent: {}
+[16.501644] (-) TimerEvent: {}
+[16.602440] (-) TimerEvent: {}
+[16.703248] (-) TimerEvent: {}
+[16.804099] (-) TimerEvent: {}
+[16.904906] (-) TimerEvent: {}
+[17.005655] (-) TimerEvent: {}
+[17.106483] (-) TimerEvent: {}
+[17.209452] (-) TimerEvent: {}
+[17.310055] (-) TimerEvent: {}
+[17.410546] (-) TimerEvent: {}
+[17.511334] (-) TimerEvent: {}
+[17.612091] (-) TimerEvent: {}
+[17.712542] (-) TimerEvent: {}
+[17.813268] (-) TimerEvent: {}
+[17.913811] (-) TimerEvent: {}
+[18.014590] (-) TimerEvent: {}
+[18.115216] (-) TimerEvent: {}
+[18.215830] (-) TimerEvent: {}
+[18.316302] (-) TimerEvent: {}
+[18.416958] (-) TimerEvent: {}
+[18.517525] (-) TimerEvent: {}
+[18.618017] (-) TimerEvent: {}
+[18.718550] (-) TimerEvent: {}
+[18.819018] (-) TimerEvent: {}
+[18.919707] (-) TimerEvent: {}
+[19.020281] (-) TimerEvent: {}
+[19.121079] (-) TimerEvent: {}
+[19.221873] (-) TimerEvent: {}
+[19.322407] (-) TimerEvent: {}
+[19.422895] (-) TimerEvent: {}
+[19.523516] (-) TimerEvent: {}
+[19.623937] (-) TimerEvent: {}
+[19.724622] (-) TimerEvent: {}
+[19.825354] (-) TimerEvent: {}
+[19.925921] (-) TimerEvent: {}
+[20.026393] (-) TimerEvent: {}
+[20.126886] (-) TimerEvent: {}
+[20.227452] (-) TimerEvent: {}
+[20.328027] (-) TimerEvent: {}
+[20.428549] (-) TimerEvent: {}
+[20.529144] (-) TimerEvent: {}
+[20.629722] (-) TimerEvent: {}
+[20.730357] (-) TimerEvent: {}
+[20.831060] (-) TimerEvent: {}
+[20.877714] (dss_imu_steering_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu_steering_control_node\x1b[0m\n'}
+[20.931279] (-) TimerEvent: {}
+[21.031936] (-) TimerEvent: {}
+[21.132711] (-) TimerEvent: {}
+[21.233249] (-) TimerEvent: {}
+[21.334064] (-) TimerEvent: {}
+[21.434833] (-) TimerEvent: {}
+[21.535844] (-) TimerEvent: {}
+[21.636632] (-) TimerEvent: {}
+[21.737094] (-) TimerEvent: {}
+[21.837932] (-) TimerEvent: {}
+[21.938887] (-) TimerEvent: {}
+[22.039627] (-) TimerEvent: {}
+[22.140608] (-) TimerEvent: {}
+[22.241234] (-) TimerEvent: {}
+[22.341799] (-) TimerEvent: {}
+[22.442591] (-) TimerEvent: {}
+[22.543497] (-) TimerEvent: {}
+[22.644712] (-) TimerEvent: {}
+[22.745699] (-) TimerEvent: {}
+[22.846761] (-) TimerEvent: {}
+[22.947489] (-) TimerEvent: {}
+[23.048275] (-) TimerEvent: {}
+[23.148809] (-) TimerEvent: {}
+[23.249514] (-) TimerEvent: {}
+[23.350105] (-) TimerEvent: {}
+[23.450586] (-) TimerEvent: {}
+[23.551042] (-) TimerEvent: {}
+[23.651458] (-) TimerEvent: {}
+[23.751852] (-) TimerEvent: {}
+[23.852358] (-) TimerEvent: {}
+[23.952797] (-) TimerEvent: {}
+[24.053459] (-) TimerEvent: {}
+[24.154035] (-) TimerEvent: {}
+[24.254520] (-) TimerEvent: {}
+[24.355117] (-) TimerEvent: {}
+[24.455754] (-) TimerEvent: {}
+[24.556440] (-) TimerEvent: {}
+[24.657314] (-) TimerEvent: {}
+[24.758091] (-) TimerEvent: {}
+[24.858724] (-) TimerEvent: {}
+[24.959219] (-) TimerEvent: {}
+[25.059951] (-) TimerEvent: {}
+[25.160491] (-) TimerEvent: {}
+[25.261186] (-) TimerEvent: {}
+[25.361608] (-) TimerEvent: {}
+[25.462013] (-) TimerEvent: {}
+[25.562884] (-) TimerEvent: {}
+[25.663413] (-) TimerEvent: {}
+[25.763865] (-) TimerEvent: {}
+[25.864626] (-) TimerEvent: {}
+[25.965174] (-) TimerEvent: {}
+[26.065788] (-) TimerEvent: {}
+[26.166364] (-) TimerEvent: {}
+[26.267239] (-) TimerEvent: {}
+[26.367765] (-) TimerEvent: {}
+[26.468224] (-) TimerEvent: {}
+[26.568904] (-) TimerEvent: {}
+[26.669521] (-) TimerEvent: {}
+[26.770252] (-) TimerEvent: {}
+[26.870800] (-) TimerEvent: {}
+[26.886390] (dss_imu_steering_control) StdoutLine: {'line': b'[100%] Built target imu_steering_control_node\n'}
+[26.920725] (dss_imu_steering_control) CommandEnded: {'returncode': 0}
+[26.944008] (dss_imu_steering_control) JobProgress: {'identifier': 'dss_imu_steering_control', 'progress': 'install'}
+[26.949419] (dss_imu_steering_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control'], 'cwd': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tukorea'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/tukorea'), ('OLDPWD', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss-ros2-bridge/src/dss_bridge/dss_bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tukorea'), ('NAME', 'b226-12'), ('WSL_INTEROP', '/run/WSL/303_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tukorea/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Python313/Scripts/:/mnt/c/Program Files/Python313/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/Naraesoft/MagicRecovery/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '2fa6fc6e-0836-4952-896b-a6c04b301df6'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8c475f66-4f53-4b09-ad4b-dd32e25cf988'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_imu_steering_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[26.961527] (dss_imu_steering_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.970944] (-) TimerEvent: {}
+[26.975041] (dss_imu_steering_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[27.004164] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/lib/dss_imu_steering_control/imu_steering_control_node\n'}
+[27.063628] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/ui/steering_control.ui\n'}
+[27.071040] (-) TimerEvent: {}
+[27.106378] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/lib/dss_imu_steering_control/simple_steering_gui.py\n'}
+[27.171235] (-) TimerEvent: {}
+[27.171965] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/ament_index/resource_index/package_run_dependencies/dss_imu_steering_control\n'}
+[27.248343] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/ament_index/resource_index/parent_prefix_path/dss_imu_steering_control\n'}
+[27.271353] (-) TimerEvent: {}
+[27.275561] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/environment/ament_prefix_path.sh\n'}
+[27.309653] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/environment/ament_prefix_path.dsv\n'}
+[27.339050] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/environment/path.sh\n'}
+[27.371441] (-) TimerEvent: {}
+[27.373216] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/environment/path.dsv\n'}
+[27.403599] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/local_setup.bash\n'}
+[27.433531] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/local_setup.sh\n'}
+[27.464475] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/local_setup.zsh\n'}
+[27.471606] (-) TimerEvent: {}
+[27.495895] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/local_setup.dsv\n'}
+[27.508869] (dss_imu_steering_control) StdoutLine: {'line': b'-- Symlinking: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/package.dsv\n'}
+[27.571714] (-) TimerEvent: {}
+[27.616474] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/ament_index/resource_index/packages/dss_imu_steering_control\n'}
+[27.650037] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/cmake/dss_imu_steering_controlConfig.cmake\n'}
+[27.671824] (-) TimerEvent: {}
+[27.679599] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/cmake/dss_imu_steering_controlConfig-version.cmake\n'}
+[27.714599] (dss_imu_steering_control) StdoutLine: {'line': b'-- Up-to-date symlink: /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_imu_steering_control/share/dss_imu_steering_control/package.xml\n'}
+[27.720129] (dss_imu_steering_control) CommandEnded: {'returncode': 0}
+[27.771897] (-) TimerEvent: {}
+[27.872390] (-) TimerEvent: {}
+[27.972961] (-) TimerEvent: {}
+[28.073604] (-) TimerEvent: {}
+[28.174337] (-) TimerEvent: {}
+[28.275171] (-) TimerEvent: {}
+[28.375934] (-) TimerEvent: {}
+[28.476460] (-) TimerEvent: {}
+[28.577376] (-) TimerEvent: {}
+[28.678398] (-) TimerEvent: {}
+[28.760071] (dss_imu_steering_control) JobEnded: {'identifier': 'dss_imu_steering_control', 'rc': 0}
+[28.770391] (-) EventReactorShutdown: {}

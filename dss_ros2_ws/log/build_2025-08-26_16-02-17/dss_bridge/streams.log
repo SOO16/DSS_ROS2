@@ -1,0 +1,22 @@
+[7.599s] Invoking command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss-ros2-bridge/src/dss_bridge': PYTHONPATH=/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/dss_bridge build --build-base /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build install --record /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/install.log --single-version-externally-managed install_data
+[9.805s] running egg_info
+[9.813s] writing ../../../../build/dss_bridge/dss_bridge.egg-info/PKG-INFO
+[9.829s] writing dependency_links to ../../../../build/dss_bridge/dss_bridge.egg-info/dependency_links.txt
+[9.845s] writing entry points to ../../../../build/dss_bridge/dss_bridge.egg-info/entry_points.txt
+[9.854s] writing requirements to ../../../../build/dss_bridge/dss_bridge.egg-info/requires.txt
+[9.862s] writing top-level names to ../../../../build/dss_bridge/dss_bridge.egg-info/top_level.txt
+[10.221s] reading manifest file '../../../../build/dss_bridge/dss_bridge.egg-info/SOURCES.txt'
+[10.745s] writing manifest file '../../../../build/dss_bridge/dss_bridge.egg-info/SOURCES.txt'
+[10.749s] running build
+[10.750s] running build_py
+[12.999s] running install
+[13.001s] running install_lib
+[19.081s] running install_data
+[19.187s] running install_egg_info
+[19.238s] removing '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+[19.453s] Copying ../../../../build/dss_bridge/dss_bridge.egg-info to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge-0.0.0-py3.10.egg-info
+[20.358s] running install_scripts
+[20.594s] Installing dss_bridge_node script to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/dss_bridge
+[20.630s] Installing dss_car_control_node script to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/dss_bridge
+[20.710s] writing list of installed files to '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/install.log'
+[20.766s] Invoked command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss-ros2-bridge/src/dss_bridge' returned '0': PYTHONPATH=/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/dss_bridge build --build-base /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build install --record /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/install.log --single-version-externally-managed install_data

@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:16 (find_package):
+  By not providing "Findnlohmann-json-dev.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "nlohmann-json-dev", but CMake did not find one.
+
+  Could not find a package configuration file provided by "nlohmann-json-dev"
+  with any of the following names:
+
+    nlohmann-json-devConfig.cmake
+    nlohmann-json-dev-config.cmake
+
+  Add the installation prefix of "nlohmann-json-dev" to CMAKE_PREFIX_PATH or
+  set "nlohmann-json-dev_DIR" to a directory containing one of the above
+  files.  If "nlohmann-json-dev" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

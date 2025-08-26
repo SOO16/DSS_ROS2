@@ -1,0 +1,20 @@
+[9.423s] Invoking command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge': PYTHONPATH=/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build --no-deps symlink_data --force
+[11.263s] running develop
+[11.662s] running egg_info
+[11.667s] writing dss_bridge.egg-info/PKG-INFO
+[11.677s] writing dependency_links to dss_bridge.egg-info/dependency_links.txt
+[11.688s] writing entry points to dss_bridge.egg-info/entry_points.txt
+[11.701s] writing requirements to dss_bridge.egg-info/requires.txt
+[11.713s] writing top-level names to dss_bridge.egg-info/top_level.txt
+[12.244s] reading manifest file 'dss_bridge.egg-info/SOURCES.txt'
+[13.050s] writing manifest file 'dss_bridge.egg-info/SOURCES.txt'
+[13.082s] running build_ext
+[13.085s] Creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss-bridge.egg-link (link to .)
+[13.157s] Installing dss_bridge_node script to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/dss_bridge
+[13.222s] Installing dss_car_control_node script to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/dss_bridge
+[13.294s] 
+[13.297s] Installed /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge
+[13.309s] running symlink_data
+[13.347s] symbolically linking /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/resource/dss_bridge -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/ament_index/resource_index/packages
+[13.380s] symbolically linking /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/package.xml -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/dss_bridge
+[13.422s] Invoked command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge' returned '0': PYTHONPATH=/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build --no-deps symlink_data --force

@@ -1,0 +1,18 @@
+[4.958s] Invoking command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge': PYTHONPATH=/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build --no-deps symlink_data
+[8.441s] running develop
+[9.233s] running egg_info
+[9.238s] writing dss_bridge.egg-info/PKG-INFO
+[9.251s] writing dependency_links to dss_bridge.egg-info/dependency_links.txt
+[9.268s] writing entry points to dss_bridge.egg-info/entry_points.txt
+[9.279s] writing requirements to dss_bridge.egg-info/requires.txt
+[9.287s] writing top-level names to dss_bridge.egg-info/top_level.txt
+[11.110s] reading manifest file 'dss_bridge.egg-info/SOURCES.txt'
+[13.136s] writing manifest file 'dss_bridge.egg-info/SOURCES.txt'
+[13.193s] running build_ext
+[13.196s] Creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss-bridge.egg-link (link to .)
+[13.282s] Installing dss_bridge_node script to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/dss_bridge
+[13.357s] Installing dss_car_control_node script to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/dss_bridge
+[13.444s] 
+[13.448s] Installed /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge
+[13.460s] running symlink_data
+[13.737s] Invoked command in '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge' returned '0': PYTHONPATH=/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build --no-deps symlink_data

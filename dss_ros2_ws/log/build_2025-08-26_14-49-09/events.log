@@ -1,0 +1,522 @@
+[0.000000] (-) TimerEvent: {}
+[0.000969] (dss_bridge) JobQueued: {'identifier': 'dss_bridge', 'dependencies': OrderedDict()}
+[0.001620] (dss_cruise_control) JobQueued: {'identifier': 'dss_cruise_control', 'dependencies': OrderedDict()}
+[0.002174] (dss_bridge) JobStarted: {'identifier': 'dss_bridge'}
+[0.095097] (-) TimerEvent: {}
+[0.195985] (-) TimerEvent: {}
+[0.276236] (dss_cruise_control) JobStarted: {'identifier': 'dss_cruise_control'}
+[0.296082] (-) TimerEvent: {}
+[0.397330] (-) TimerEvent: {}
+[0.497862] (-) TimerEvent: {}
+[0.598508] (-) TimerEvent: {}
+[0.699293] (-) TimerEvent: {}
+[0.799732] (-) TimerEvent: {}
+[0.900277] (-) TimerEvent: {}
+[1.001487] (-) TimerEvent: {}
+[1.103357] (-) TimerEvent: {}
+[1.205875] (-) TimerEvent: {}
+[1.311043] (-) TimerEvent: {}
+[1.411411] (-) TimerEvent: {}
+[1.511979] (-) TimerEvent: {}
+[1.614121] (-) TimerEvent: {}
+[1.716444] (-) TimerEvent: {}
+[1.817255] (-) TimerEvent: {}
+[1.917849] (-) TimerEvent: {}
+[2.020230] (-) TimerEvent: {}
+[2.106152] (dss_cruise_control) JobProgress: {'identifier': 'dss_cruise_control', 'progress': 'cmake'}
+[2.120360] (-) TimerEvent: {}
+[2.194374] (dss_cruise_control) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss_cruise_control', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_cruise_control'], 'cwd': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tukorea'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/tukorea'), ('OLDPWD', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss_cruise_control'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tukorea'), ('NAME', 'b226-12'), ('WSL_INTEROP', '/run/WSL/303_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tukorea/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Python313/Scripts/:/mnt/c/Program Files/Python313/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/Naraesoft/MagicRecovery/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '2fa6fc6e-0836-4952-896b-a6c04b301df6'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:6318fb47-feef-42d9-902e-b25d4f994318'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble')]), 'shell': False}
+[2.223246] (-) TimerEvent: {}
+[2.324276] (-) TimerEvent: {}
+[2.426826] (-) TimerEvent: {}
+[2.528091] (-) TimerEvent: {}
+[2.628556] (-) TimerEvent: {}
+[2.729169] (-) TimerEvent: {}
+[2.830064] (-) TimerEvent: {}
+[2.930779] (-) TimerEvent: {}
+[3.031727] (-) TimerEvent: {}
+[3.132362] (-) TimerEvent: {}
+[3.189476] (dss_cruise_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.232474] (-) TimerEvent: {}
+[3.333484] (-) TimerEvent: {}
+[3.434966] (-) TimerEvent: {}
+[3.536857] (-) TimerEvent: {}
+[3.638086] (-) TimerEvent: {}
+[3.739246] (-) TimerEvent: {}
+[3.840258] (-) TimerEvent: {}
+[3.941109] (-) TimerEvent: {}
+[4.041766] (-) TimerEvent: {}
+[4.142858] (-) TimerEvent: {}
+[4.244546] (-) TimerEvent: {}
+[4.345148] (-) TimerEvent: {}
+[4.445747] (-) TimerEvent: {}
+[4.547209] (-) TimerEvent: {}
+[4.647787] (-) TimerEvent: {}
+[4.748501] (-) TimerEvent: {}
+[4.850535] (-) TimerEvent: {}
+[4.951192] (-) TimerEvent: {}
+[5.052020] (-) TimerEvent: {}
+[5.136504] (dss_cruise_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.152066] (-) TimerEvent: {}
+[5.253992] (-) TimerEvent: {}
+[5.354541] (-) TimerEvent: {}
+[5.455041] (-) TimerEvent: {}
+[5.558351] (-) TimerEvent: {}
+[5.659232] (-) TimerEvent: {}
+[5.759861] (-) TimerEvent: {}
+[5.863180] (-) TimerEvent: {}
+[5.963657] (-) TimerEvent: {}
+[6.065506] (-) TimerEvent: {}
+[6.166318] (-) TimerEvent: {}
+[6.268785] (-) TimerEvent: {}
+[6.369855] (-) TimerEvent: {}
+[6.470340] (-) TimerEvent: {}
+[6.551456] (dss_cruise_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.570476] (-) TimerEvent: {}
+[6.671696] (-) TimerEvent: {}
+[6.772146] (-) TimerEvent: {}
+[6.872782] (-) TimerEvent: {}
+[6.973314] (-) TimerEvent: {}
+[7.074280] (-) TimerEvent: {}
+[7.174812] (-) TimerEvent: {}
+[7.275918] (-) TimerEvent: {}
+[7.376725] (-) TimerEvent: {}
+[7.479173] (-) TimerEvent: {}
+[7.580079] (-) TimerEvent: {}
+[7.680709] (-) TimerEvent: {}
+[7.782081] (-) TimerEvent: {}
+[7.883298] (-) TimerEvent: {}
+[7.984167] (-) TimerEvent: {}
+[8.074037] (dss_cruise_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.084295] (-) TimerEvent: {}
+[8.146818] (dss_cruise_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.151433] (dss_cruise_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.153383] (dss_cruise_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.184427] (-) TimerEvent: {}
+[8.285298] (-) TimerEvent: {}
+[8.344302] (dss_cruise_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.385386] (-) TimerEvent: {}
+[8.487248] (-) TimerEvent: {}
+[8.589237] (-) TimerEvent: {}
+[8.692831] (-) TimerEvent: {}
+[8.794333] (-) TimerEvent: {}
+[8.897137] (-) TimerEvent: {}
+[8.998537] (-) TimerEvent: {}
+[9.099934] (-) TimerEvent: {}
+[9.200995] (-) TimerEvent: {}
+[9.303548] (-) TimerEvent: {}
+[9.400779] (dss_bridge) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tukorea', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/tukorea', 'OLDPWD': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/src/dss_cruise_control', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tukorea', 'NAME': 'b226-12', 'WSL_INTEROP': '/run/WSL/303_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/tukorea/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Python313/Scripts/:/mnt/c/Program Files/Python313/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/Naraesoft/MagicRecovery/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/AppData/Roaming/npm:/snap/bin', 'WT_SESSION': '2fa6fc6e-0836-4952-896b-a6c04b301df6', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:6318fb47-feef-42d9-902e-b25d4f994318', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge:/mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'VTE_VERSION': '6800', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[9.426668] (-) TimerEvent: {}
+[9.527175] (-) TimerEvent: {}
+[9.627941] (-) TimerEvent: {}
+[9.729659] (-) TimerEvent: {}
+[9.831025] (-) TimerEvent: {}
+[9.932442] (-) TimerEvent: {}
+[10.034895] (-) TimerEvent: {}
+[10.100310] (dss_cruise_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.134973] (-) TimerEvent: {}
+[10.166953] (dss_cruise_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[10.171036] (dss_cruise_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.175107] (dss_cruise_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.235081] (-) TimerEvent: {}
+[10.336982] (-) TimerEvent: {}
+[10.430925] (dss_cruise_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.437073] (-) TimerEvent: {}
+[10.537999] (-) TimerEvent: {}
+[10.638978] (-) TimerEvent: {}
+[10.741441] (-) TimerEvent: {}
+[10.842366] (-) TimerEvent: {}
+[10.943447] (-) TimerEvent: {}
+[11.044181] (-) TimerEvent: {}
+[11.146855] (-) TimerEvent: {}
+[11.247652] (-) TimerEvent: {}
+[11.263895] (dss_bridge) StdoutLine: {'line': b'running develop\n'}
+[11.347739] (-) TimerEvent: {}
+[11.448471] (-) TimerEvent: {}
+[11.549201] (-) TimerEvent: {}
+[11.649733] (-) TimerEvent: {}
+[11.663761] (dss_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[11.667350] (dss_bridge) StdoutLine: {'line': b'writing dss_bridge.egg-info/PKG-INFO\n'}
+[11.676661] (dss_bridge) StdoutLine: {'line': b'writing dependency_links to dss_bridge.egg-info/dependency_links.txt\n'}
+[11.688483] (dss_bridge) StdoutLine: {'line': b'writing entry points to dss_bridge.egg-info/entry_points.txt\n'}
+[11.698933] (dss_bridge) StdoutLine: {'line': b'writing requirements to dss_bridge.egg-info/requires.txt\n'}
+[11.711518] (dss_bridge) StdoutLine: {'line': b'writing top-level names to dss_bridge.egg-info/top_level.txt\n'}
+[11.749864] (-) TimerEvent: {}
+[11.854349] (-) TimerEvent: {}
+[11.956062] (-) TimerEvent: {}
+[12.057516] (-) TimerEvent: {}
+[12.121672] (dss_cruise_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[12.157593] (-) TimerEvent: {}
+[12.244915] (dss_bridge) StdoutLine: {'line': b"reading manifest file 'dss_bridge.egg-info/SOURCES.txt'\n"}
+[12.257759] (-) TimerEvent: {}
+[12.359889] (-) TimerEvent: {}
+[12.461682] (-) TimerEvent: {}
+[12.563429] (-) TimerEvent: {}
+[12.664879] (-) TimerEvent: {}
+[12.765283] (-) TimerEvent: {}
+[12.865947] (-) TimerEvent: {}
+[12.967255] (-) TimerEvent: {}
+[13.051058] (dss_bridge) StdoutLine: {'line': b"writing manifest file 'dss_bridge.egg-info/SOURCES.txt'\n"}
+[13.067348] (-) TimerEvent: {}
+[13.067726] (dss_cruise_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[13.080998] (dss_bridge) StdoutLine: {'line': b'running build_ext\n'}
+[13.086096] (dss_bridge) StdoutLine: {'line': b'Creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss-bridge.egg-link (link to .)\n'}
+[13.157939] (dss_bridge) StdoutLine: {'line': b'Installing dss_bridge_node script to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/dss_bridge\n'}
+[13.167456] (-) TimerEvent: {}
+[13.221656] (dss_bridge) StdoutLine: {'line': b'Installing dss_car_control_node script to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/dss_bridge\n'}
+[13.267545] (-) TimerEvent: {}
+[13.295139] (dss_bridge) StdoutLine: {'line': b'\n'}
+[13.297057] (dss_bridge) StdoutLine: {'line': b'Installed /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge\n'}
+[13.309177] (dss_bridge) StdoutLine: {'line': b'running symlink_data\n'}
+[13.347329] (dss_bridge) StdoutLine: {'line': b'symbolically linking /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/resource/dss_bridge -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/ament_index/resource_index/packages\n'}
+[13.367652] (-) TimerEvent: {}
+[13.379547] (dss_bridge) StdoutLine: {'line': b'symbolically linking /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/package.xml -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/dss_bridge\n'}
+[13.419493] (dss_bridge) CommandEnded: {'returncode': 0}
+[13.467803] (-) TimerEvent: {}
+[13.568761] (-) TimerEvent: {}
+[13.669373] (-) TimerEvent: {}
+[13.771542] (-) TimerEvent: {}
+[13.874181] (-) TimerEvent: {}
+[13.975219] (-) TimerEvent: {}
+[14.005439] (dss_bridge) JobEnded: {'identifier': 'dss_bridge', 'rc': 0}
+[14.075302] (-) TimerEvent: {}
+[14.176526] (-) TimerEvent: {}
+[14.277041] (-) TimerEvent: {}
+[14.377945] (-) TimerEvent: {}
+[14.460524] (dss_cruise_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[14.478025] (-) TimerEvent: {}
+[14.578988] (-) TimerEvent: {}
+[14.679599] (-) TimerEvent: {}
+[14.780223] (-) TimerEvent: {}
+[14.880889] (-) TimerEvent: {}
+[14.981585] (-) TimerEvent: {}
+[15.082534] (-) TimerEvent: {}
+[15.183500] (-) TimerEvent: {}
+[15.284286] (-) TimerEvent: {}
+[15.385393] (-) TimerEvent: {}
+[15.486832] (-) TimerEvent: {}
+[15.587232] (-) TimerEvent: {}
+[15.687658] (-) TimerEvent: {}
+[15.789002] (-) TimerEvent: {}
+[15.889838] (-) TimerEvent: {}
+[15.990323] (-) TimerEvent: {}
+[16.091491] (-) TimerEvent: {}
+[16.192429] (-) TimerEvent: {}
+[16.288951] (dss_cruise_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[16.292516] (-) TimerEvent: {}
+[16.393363] (-) TimerEvent: {}
+[16.494430] (-) TimerEvent: {}
+[16.535652] (dss_cruise_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[16.594544] (-) TimerEvent: {}
+[16.695355] (-) TimerEvent: {}
+[16.791692] (dss_cruise_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[16.795421] (-) TimerEvent: {}
+[16.896311] (-) TimerEvent: {}
+[16.997019] (-) TimerEvent: {}
+[17.070718] (dss_cruise_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[17.097122] (-) TimerEvent: {}
+[17.197734] (-) TimerEvent: {}
+[17.298366] (-) TimerEvent: {}
+[17.399199] (-) TimerEvent: {}
+[17.464185] (dss_cruise_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[17.499360] (-) TimerEvent: {}
+[17.601252] (-) TimerEvent: {}
+[17.702096] (-) TimerEvent: {}
+[17.802556] (-) TimerEvent: {}
+[17.904329] (-) TimerEvent: {}
+[18.005637] (-) TimerEvent: {}
+[18.106903] (-) TimerEvent: {}
+[18.207397] (-) TimerEvent: {}
+[18.309221] (-) TimerEvent: {}
+[18.411602] (-) TimerEvent: {}
+[18.512315] (-) TimerEvent: {}
+[18.613119] (-) TimerEvent: {}
+[18.713724] (-) TimerEvent: {}
+[18.814361] (-) TimerEvent: {}
+[18.899977] (dss_cruise_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[18.914451] (-) TimerEvent: {}
+[19.015726] (-) TimerEvent: {}
+[19.046597] (dss_cruise_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[19.115804] (-) TimerEvent: {}
+[19.216396] (-) TimerEvent: {}
+[19.317290] (-) TimerEvent: {}
+[19.418836] (-) TimerEvent: {}
+[19.520714] (-) TimerEvent: {}
+[19.621339] (-) TimerEvent: {}
+[19.722097] (-) TimerEvent: {}
+[19.823251] (-) TimerEvent: {}
+[19.923923] (-) TimerEvent: {}
+[20.025000] (-) TimerEvent: {}
+[20.126226] (-) TimerEvent: {}
+[20.226954] (-) TimerEvent: {}
+[20.328950] (-) TimerEvent: {}
+[20.430545] (-) TimerEvent: {}
+[20.531447] (-) TimerEvent: {}
+[20.632052] (-) TimerEvent: {}
+[20.732550] (-) TimerEvent: {}
+[20.834183] (-) TimerEvent: {}
+[20.934610] (-) TimerEvent: {}
+[21.035143] (-) TimerEvent: {}
+[21.135886] (-) TimerEvent: {}
+[21.236770] (-) TimerEvent: {}
+[21.337372] (-) TimerEvent: {}
+[21.438545] (-) TimerEvent: {}
+[21.539430] (-) TimerEvent: {}
+[21.640861] (-) TimerEvent: {}
+[21.742987] (-) TimerEvent: {}
+[21.843733] (-) TimerEvent: {}
+[21.944296] (-) TimerEvent: {}
+[22.047112] (-) TimerEvent: {}
+[22.148438] (-) TimerEvent: {}
+[22.250031] (-) TimerEvent: {}
+[22.350452] (-) TimerEvent: {}
+[22.451714] (-) TimerEvent: {}
+[22.553025] (-) TimerEvent: {}
+[22.653714] (-) TimerEvent: {}
+[22.754883] (-) TimerEvent: {}
+[22.855585] (-) TimerEvent: {}
+[22.956861] (-) TimerEvent: {}
+[23.057636] (-) TimerEvent: {}
+[23.158703] (-) TimerEvent: {}
+[23.261068] (-) TimerEvent: {}
+[23.366057] (-) TimerEvent: {}
+[23.467200] (-) TimerEvent: {}
+[23.568569] (-) TimerEvent: {}
+[23.672186] (-) TimerEvent: {}
+[23.773820] (-) TimerEvent: {}
+[23.876308] (-) TimerEvent: {}
+[23.979950] (-) TimerEvent: {}
+[24.081130] (-) TimerEvent: {}
+[24.092758] (dss_cruise_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[24.181250] (-) TimerEvent: {}
+[24.281962] (-) TimerEvent: {}
+[24.386414] (-) TimerEvent: {}
+[24.486952] (-) TimerEvent: {}
+[24.587623] (-) TimerEvent: {}
+[24.688237] (-) TimerEvent: {}
+[24.788987] (-) TimerEvent: {}
+[24.889859] (-) TimerEvent: {}
+[24.990559] (-) TimerEvent: {}
+[25.091337] (-) TimerEvent: {}
+[25.192090] (-) TimerEvent: {}
+[25.292701] (-) TimerEvent: {}
+[25.394519] (-) TimerEvent: {}
+[25.494868] (-) TimerEvent: {}
+[25.596860] (-) TimerEvent: {}
+[25.697941] (-) TimerEvent: {}
+[25.798960] (-) TimerEvent: {}
+[25.899692] (-) TimerEvent: {}
+[26.000848] (-) TimerEvent: {}
+[26.103620] (-) TimerEvent: {}
+[26.204149] (-) TimerEvent: {}
+[26.304947] (-) TimerEvent: {}
+[26.405751] (-) TimerEvent: {}
+[26.506663] (-) TimerEvent: {}
+[26.607247] (-) TimerEvent: {}
+[26.708172] (-) TimerEvent: {}
+[26.808784] (-) TimerEvent: {}
+[26.909583] (-) TimerEvent: {}
+[27.012697] (-) TimerEvent: {}
+[27.113821] (-) TimerEvent: {}
+[27.214670] (-) TimerEvent: {}
+[27.315394] (-) TimerEvent: {}
+[27.417683] (-) TimerEvent: {}
+[27.519160] (-) TimerEvent: {}
+[27.619736] (-) TimerEvent: {}
+[27.720418] (-) TimerEvent: {}
+[27.821252] (-) TimerEvent: {}
+[27.922092] (-) TimerEvent: {}
+[28.022633] (-) TimerEvent: {}
+[28.123943] (-) TimerEvent: {}
+[28.226574] (-) TimerEvent: {}
+[28.327163] (-) TimerEvent: {}
+[28.427833] (-) TimerEvent: {}
+[28.529340] (-) TimerEvent: {}
+[28.555713] (dss_cruise_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[28.629407] (-) TimerEvent: {}
+[28.730109] (-) TimerEvent: {}
+[28.831555] (-) TimerEvent: {}
+[28.932408] (-) TimerEvent: {}
+[29.033237] (-) TimerEvent: {}
+[29.137335] (-) TimerEvent: {}
+[29.237959] (-) TimerEvent: {}
+[29.338559] (-) TimerEvent: {}
+[29.439405] (-) TimerEvent: {}
+[29.539993] (-) TimerEvent: {}
+[29.641666] (-) TimerEvent: {}
+[29.742359] (-) TimerEvent: {}
+[29.843111] (-) TimerEvent: {}
+[29.946266] (-) TimerEvent: {}
+[30.047410] (-) TimerEvent: {}
+[30.148031] (-) TimerEvent: {}
+[30.249676] (-) TimerEvent: {}
+[30.350097] (-) TimerEvent: {}
+[30.450576] (-) TimerEvent: {}
+[30.552061] (-) TimerEvent: {}
+[30.653345] (-) TimerEvent: {}
+[30.754403] (-) TimerEvent: {}
+[30.854956] (-) TimerEvent: {}
+[30.955755] (-) TimerEvent: {}
+[31.056719] (-) TimerEvent: {}
+[31.157206] (-) TimerEvent: {}
+[31.257868] (-) TimerEvent: {}
+[31.359803] (-) TimerEvent: {}
+[31.460506] (-) TimerEvent: {}
+[31.561029] (-) TimerEvent: {}
+[31.661635] (-) TimerEvent: {}
+[31.762721] (-) TimerEvent: {}
+[31.863471] (-) TimerEvent: {}
+[31.964159] (-) TimerEvent: {}
+[32.066115] (-) TimerEvent: {}
+[32.166830] (-) TimerEvent: {}
+[32.267387] (-) TimerEvent: {}
+[32.367925] (-) TimerEvent: {}
+[32.469089] (-) TimerEvent: {}
+[32.570406] (-) TimerEvent: {}
+[32.673752] (-) TimerEvent: {}
+[32.774390] (-) TimerEvent: {}
+[32.874958] (-) TimerEvent: {}
+[32.977295] (-) TimerEvent: {}
+[33.078528] (-) TimerEvent: {}
+[33.179283] (-) TimerEvent: {}
+[33.279981] (-) TimerEvent: {}
+[33.380490] (-) TimerEvent: {}
+[33.482281] (-) TimerEvent: {}
+[33.584768] (-) TimerEvent: {}
+[33.685225] (-) TimerEvent: {}
+[33.786173] (-) TimerEvent: {}
+[33.888404] (-) TimerEvent: {}
+[33.989138] (-) TimerEvent: {}
+[34.089956] (-) TimerEvent: {}
+[34.191142] (-) TimerEvent: {}
+[34.291839] (-) TimerEvent: {}
+[34.392407] (-) TimerEvent: {}
+[34.493108] (-) TimerEvent: {}
+[34.593628] (-) TimerEvent: {}
+[34.694343] (-) TimerEvent: {}
+[34.795002] (-) TimerEvent: {}
+[34.895611] (-) TimerEvent: {}
+[34.997285] (-) TimerEvent: {}
+[35.098410] (-) TimerEvent: {}
+[35.198928] (-) TimerEvent: {}
+[35.299854] (-) TimerEvent: {}
+[35.400891] (-) TimerEvent: {}
+[35.501762] (-) TimerEvent: {}
+[35.602450] (-) TimerEvent: {}
+[35.704166] (-) TimerEvent: {}
+[35.805114] (-) TimerEvent: {}
+[35.905541] (-) TimerEvent: {}
+[36.006732] (-) TimerEvent: {}
+[36.107372] (-) TimerEvent: {}
+[36.208664] (-) TimerEvent: {}
+[36.309148] (-) TimerEvent: {}
+[36.409793] (-) TimerEvent: {}
+[36.458233] (dss_cruise_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[36.509890] (-) TimerEvent: {}
+[36.610355] (-) TimerEvent: {}
+[36.711088] (-) TimerEvent: {}
+[36.811519] (-) TimerEvent: {}
+[36.912153] (-) TimerEvent: {}
+[36.928444] (dss_cruise_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[37.012241] (-) TimerEvent: {}
+[37.113522] (-) TimerEvent: {}
+[37.214370] (-) TimerEvent: {}
+[37.315093] (-) TimerEvent: {}
+[37.417233] (-) TimerEvent: {}
+[37.517659] (-) TimerEvent: {}
+[37.619309] (-) TimerEvent: {}
+[37.723031] (-) TimerEvent: {}
+[37.823715] (-) TimerEvent: {}
+[37.924862] (-) TimerEvent: {}
+[38.025233] (-) TimerEvent: {}
+[38.126326] (-) TimerEvent: {}
+[38.226913] (-) TimerEvent: {}
+[38.237698] (dss_cruise_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[38.267955] (dss_cruise_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[38.327233] (-) TimerEvent: {}
+[38.428161] (-) TimerEvent: {}
+[38.530103] (-) TimerEvent: {}
+[38.630768] (-) TimerEvent: {}
+[38.731730] (-) TimerEvent: {}
+[38.832182] (-) TimerEvent: {}
+[38.933219] (-) TimerEvent: {}
+[39.034649] (-) TimerEvent: {}
+[39.135125] (-) TimerEvent: {}
+[39.235944] (-) TimerEvent: {}
+[39.337644] (-) TimerEvent: {}
+[39.438301] (-) TimerEvent: {}
+[39.538736] (-) TimerEvent: {}
+[39.579531] (dss_cruise_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[39.598743] (dss_cruise_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[39.638813] (-) TimerEvent: {}
+[39.739218] (-) TimerEvent: {}
+[39.839659] (-) TimerEvent: {}
+[39.940664] (-) TimerEvent: {}
+[40.041153] (-) TimerEvent: {}
+[40.141978] (-) TimerEvent: {}
+[40.243267] (-) TimerEvent: {}
+[40.248050] (dss_cruise_control) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[40.343346] (-) TimerEvent: {}
+[40.445208] (-) TimerEvent: {}
+[40.545828] (-) TimerEvent: {}
+[40.646528] (-) TimerEvent: {}
+[40.746925] (-) TimerEvent: {}
+[40.847606] (-) TimerEvent: {}
+[40.948247] (-) TimerEvent: {}
+[41.048907] (-) TimerEvent: {}
+[41.150314] (-) TimerEvent: {}
+[41.250743] (-) TimerEvent: {}
+[41.351481] (-) TimerEvent: {}
+[41.452148] (-) TimerEvent: {}
+[41.552787] (-) TimerEvent: {}
+[41.653265] (-) TimerEvent: {}
+[41.755667] (-) TimerEvent: {}
+[41.856181] (-) TimerEvent: {}
+[41.956654] (-) TimerEvent: {}
+[42.057252] (-) TimerEvent: {}
+[42.157901] (-) TimerEvent: {}
+[42.258619] (-) TimerEvent: {}
+[42.359103] (-) TimerEvent: {}
+[42.459798] (-) TimerEvent: {}
+[42.560747] (-) TimerEvent: {}
+[42.662005] (-) TimerEvent: {}
+[42.762432] (-) TimerEvent: {}
+[42.863284] (-) TimerEvent: {}
+[42.963790] (-) TimerEvent: {}
+[43.064290] (-) TimerEvent: {}
+[43.164979] (-) TimerEvent: {}
+[43.265944] (-) TimerEvent: {}
+[43.366883] (-) TimerEvent: {}
+[43.467396] (-) TimerEvent: {}
+[43.568734] (-) TimerEvent: {}
+[43.669347] (-) TimerEvent: {}
+[43.770009] (-) TimerEvent: {}
+[43.870768] (-) TimerEvent: {}
+[43.972124] (-) TimerEvent: {}
+[44.072650] (-) TimerEvent: {}
+[44.173929] (-) TimerEvent: {}
+[44.235350] (dss_cruise_control) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (find_package):\n'}
+[44.236938] (dss_cruise_control) StderrLine: {'line': b'  By not providing "Findnlohmann_json.cmake" in CMAKE_MODULE_PATH this\n'}
+[44.238692] (dss_cruise_control) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[44.245430] (dss_cruise_control) StderrLine: {'line': b'  "nlohmann_json", but CMake did not find one.\n'}
+[44.249267] (dss_cruise_control) StderrLine: {'line': b'\n'}
+[44.251139] (dss_cruise_control) StderrLine: {'line': b'  Could not find a package configuration file provided by "nlohmann_json"\n'}
+[44.255397] (dss_cruise_control) StderrLine: {'line': b'  with any of the following names:\n'}
+[44.258926] (dss_cruise_control) StderrLine: {'line': b'\n'}
+[44.260683] (dss_cruise_control) StderrLine: {'line': b'    nlohmann_jsonConfig.cmake\n'}
+[44.262135] (dss_cruise_control) StderrLine: {'line': b'    nlohmann_json-config.cmake\n'}
+[44.263755] (dss_cruise_control) StderrLine: {'line': b'\n'}
+[44.265501] (dss_cruise_control) StderrLine: {'line': b'  Add the installation prefix of "nlohmann_json" to CMAKE_PREFIX_PATH or set\n'}
+[44.267316] (dss_cruise_control) StderrLine: {'line': b'  "nlohmann_json_DIR" to a directory containing one of the above files.  If\n'}
+[44.269329] (dss_cruise_control) StderrLine: {'line': b'  "nlohmann_json" provides a separate development package or SDK, be sure it\n'}
+[44.271091] (dss_cruise_control) StderrLine: {'line': b'  has been installed.\n'}
+[44.273164] (dss_cruise_control) StderrLine: {'line': b'\n'}
+[44.275074] (-) TimerEvent: {}
+[44.275500] (dss_cruise_control) StderrLine: {'line': b'\x1b[0m\n'}
+[44.277965] (dss_cruise_control) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[44.279788] (dss_cruise_control) StdoutLine: {'line': b'See also "/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_cruise_control/CMakeFiles/CMakeOutput.log".\n'}
+[44.283964] (dss_cruise_control) CommandEnded: {'returncode': 1}
+[44.375178] (-) TimerEvent: {}
+[44.477028] (-) TimerEvent: {}
+[44.555404] (dss_cruise_control) JobEnded: {'identifier': 'dss_cruise_control', 'rc': 1}
+[44.573018] (-) EventReactorShutdown: {}

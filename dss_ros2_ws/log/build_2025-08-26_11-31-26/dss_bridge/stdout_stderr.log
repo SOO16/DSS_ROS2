@@ -1,0 +1,174 @@
+running develop
+Removing /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss-bridge.egg-link (link to .)
+running egg_info
+writing ../../../../build/dss_bridge/dss_bridge.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/dss_bridge/dss_bridge.egg-info/dependency_links.txt
+writing entry points to ../../../../build/dss_bridge/dss_bridge.egg-info/entry_points.txt
+writing requirements to ../../../../build/dss_bridge/dss_bridge.egg-info/requires.txt
+writing top-level names to ../../../../build/dss_bridge/dss_bridge.egg-info/top_level.txt
+reading manifest file '../../../../build/dss_bridge/dss_bridge.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/dss_bridge/dss_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build
+creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib
+creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge
+copying dss_bridge/dss_bridge_node.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge
+copying dss_bridge/dss_car_control_node.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge
+copying dss_bridge/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge
+creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk
+copying dss_bridge/dss_sdk/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk
+creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/config
+copying dss_bridge/dss_sdk/config/sdk_config.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/config
+copying dss_bridge/dss_sdk/config/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/config
+creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core
+copying dss_bridge/dss_sdk/core/idsssdk.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core
+copying dss_bridge/dss_sdk/core/osi_manager.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core
+copying dss_bridge/dss_sdk/core/sim_control_sender.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core
+copying dss_bridge/dss_sdk/core/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core
+creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_common_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_datarecording_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_detectedlane_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_detectedobject_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_detectedoccupant_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_detectedroadmarking_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_detectedtrafficlight_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_detectedtrafficsign_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_environment_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_featuredata_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_groundtruth_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_hostvehicledata_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_lane_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_logicaldetectiondata_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_logicallane_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_object_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_occupant_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_referenceline_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_roadmarking_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_sensordata_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_sensorspecific_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_sensorviewconfiguration_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_sensorview_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_trafficcommandupdate_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_trafficcommand_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_trafficlight_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_trafficsign_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_trafficupdate_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/osi_version_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+copying dss_bridge/dss_sdk/osi3/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3
+creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/protobuf
+copying dss_bridge/dss_sdk/protobuf/dss_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/protobuf
+copying dss_bridge/dss_sdk/protobuf/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/protobuf
+creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/utils
+copying dss_bridge/dss_sdk/utils/formatter.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/utils
+copying dss_bridge/dss_sdk/utils/logger.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/utils
+copying dss_bridge/dss_sdk/utils/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/utils
+running install
+running install_lib
+creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_bridge_node.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_car_control_node.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge
+creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk
+creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/config
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/config/sdk_config.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/config
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/config/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/config
+creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core/idsssdk.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core/osi_manager.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core/sim_control_sender.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/core/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core
+creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_common_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_datarecording_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_detectedlane_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_detectedobject_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_detectedoccupant_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_detectedroadmarking_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_detectedtrafficlight_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_detectedtrafficsign_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_environment_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_featuredata_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_groundtruth_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_hostvehicledata_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_lane_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_logicaldetectiondata_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_logicallane_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_object_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_occupant_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_referenceline_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_roadmarking_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_sensordata_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_sensorspecific_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_sensorviewconfiguration_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_sensorview_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_trafficcommandupdate_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_trafficcommand_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_trafficlight_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_trafficsign_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_trafficupdate_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/osi_version_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/osi3/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3
+creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/protobuf
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/protobuf/dss_pb2.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/protobuf
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/protobuf/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/protobuf
+creating /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/utils
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/utils/formatter.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/utils
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/utils/logger.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/utils
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/utils/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/utils
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/dss_sdk/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk
+copying /mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/build/lib/dss_bridge/__init__.py -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_bridge_node.py to dss_bridge_node.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_car_control_node.py to dss_car_control_node.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/config/sdk_config.py to sdk_config.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/config/__init__.py to __init__.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core/idsssdk.py to idsssdk.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core/osi_manager.py to osi_manager.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core/sim_control_sender.py to sim_control_sender.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/core/__init__.py to __init__.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_common_pb2.py to osi_common_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_datarecording_pb2.py to osi_datarecording_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_detectedlane_pb2.py to osi_detectedlane_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_detectedobject_pb2.py to osi_detectedobject_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_detectedoccupant_pb2.py to osi_detectedoccupant_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_detectedroadmarking_pb2.py to osi_detectedroadmarking_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_detectedtrafficlight_pb2.py to osi_detectedtrafficlight_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_detectedtrafficsign_pb2.py to osi_detectedtrafficsign_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_environment_pb2.py to osi_environment_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_featuredata_pb2.py to osi_featuredata_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_groundtruth_pb2.py to osi_groundtruth_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_hostvehicledata_pb2.py to osi_hostvehicledata_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_lane_pb2.py to osi_lane_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_logicaldetectiondata_pb2.py to osi_logicaldetectiondata_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_logicallane_pb2.py to osi_logicallane_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_object_pb2.py to osi_object_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_occupant_pb2.py to osi_occupant_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_referenceline_pb2.py to osi_referenceline_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_roadmarking_pb2.py to osi_roadmarking_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_sensordata_pb2.py to osi_sensordata_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_sensorspecific_pb2.py to osi_sensorspecific_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_sensorviewconfiguration_pb2.py to osi_sensorviewconfiguration_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_sensorview_pb2.py to osi_sensorview_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_trafficcommandupdate_pb2.py to osi_trafficcommandupdate_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_trafficcommand_pb2.py to osi_trafficcommand_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_trafficlight_pb2.py to osi_trafficlight_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_trafficsign_pb2.py to osi_trafficsign_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_trafficupdate_pb2.py to osi_trafficupdate_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/osi_version_pb2.py to osi_version_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/osi3/__init__.py to __init__.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/protobuf/dss_pb2.py to dss_pb2.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/protobuf/__init__.py to __init__.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/utils/formatter.py to formatter.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/utils/logger.py to logger.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/utils/__init__.py to __init__.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/dss_sdk/__init__.py to __init__.cpython-310.pyc
+byte-compiling /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/dss_bridge -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/share/dss_bridge
+running install_egg_info
+Copying ../../../../build/dss_bridge/dss_bridge.egg-info to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/python3.10/site-packages/dss_bridge-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dss_bridge_node script to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/dss_bridge
+Installing dss_car_control_node script to /mnt/c/Project/DSS_ROS2/dss_ros2_ws/install/dss_bridge/lib/dss_bridge
+writing list of installed files to '/mnt/c/Project/DSS_ROS2/dss_ros2_ws/build/dss_bridge/install.log'
